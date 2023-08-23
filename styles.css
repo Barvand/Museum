@@ -43,8 +43,10 @@ body {
 .container {
     position: relative;
     background-image: url(Images/Communitysciencecenter.jpg);
-    height: 80vh;
-     max-height: 1000px;
+    background-blend-mode: multiply;
+    background-color: rgba(46, 38, 38, 0.363);
+    height: 70vh;
+    max-height: 70vh;
     width: 100%;
     max-width: 100%;
     background-size: cover;
@@ -77,7 +79,7 @@ body {
 .intro-admission { 
     background-color: #3E363F;
     width: 140vh;
-    color: rgb(0, 0, 0);
+    color: rgb(250, 249, 249);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
     padding-left: 20%;
@@ -87,7 +89,7 @@ body {
 .opening-hours-index {
 width: 20%;
     background-color: #697A21;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
     padding-left: 2%;
