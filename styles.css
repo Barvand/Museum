@@ -22,7 +22,8 @@ body {
 
 }
 
-#logo { 
+#Logo { 
+padding: 20px;
     
 }
 
@@ -31,6 +32,7 @@ body {
    justify-content: space-around;
     color: white;
     font-size: 20px;
+    line-height: 3;
    
 }
 
@@ -40,20 +42,13 @@ body {
 }
  
 
-
 .container {
     width: 100%;
     position: relative;
-    background-image: url(Images/museumnight.png);
+    background-image: url(Images/Frontpageindex.png);
     background-blend-mode: multiply;
     background-color: rgba(46, 38, 38, 0.363);
-    
     min-height: 750px; 
-    background-size: cover;
-    
-    
-
-
     
 }
 
