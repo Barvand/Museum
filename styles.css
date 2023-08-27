@@ -6,8 +6,17 @@ body {
     padding: 0;
 }
 
+p { 
+    margin: 5px;
+}
 
+h2 {
+    margin: 0;
+}
 
+a {
+    text-decoration: none; 
+}
 #header {
     background-color: black;
     height: 100px;
@@ -33,7 +42,17 @@ padding: 20px;
     color: white;
     font-size: 20px;
     line-height: 3;
-   
+    font-family: "Oswald";
+}
+
+#booknow-btn {
+    background-color:#1189F6; 
+    padding: 0;
+    margin-left: 40px;
+    width: 140px;
+    height: 60px;
+    text-align: center;
+    
 }
 
 .museum-content-box {
@@ -56,32 +75,45 @@ padding: 20px;
     position: absolute;
     color: white;
     font-size: 50px;
-    bottom: 100px;
-    left: 350px;
+    bottom: 7vh;
+    left: 30vh;
     text-transform:uppercase; 
+    font-family: "Oswald";
 }
   
 #p-index {
     position: absolute;
-    bottom: 20px;
-    left: 350px;
-    text-transform:uppercase; 
+    bottom: 7vh;
+    left: 30vh;
+    text-transform:capitalize;
+    font-family: "Nunito Sans";
+    font-size: 2rem;
+    font-weight: 600;
 }
 
 .banner-text { 
     width: 60%;
     display: flex;
-    justify-content: center;
+    align-items: center;
     justify-content: space-between;
     margin: auto;
     background-color: #3E363F;
+    font-family: "Nunito Sans";
+    font-weight: 600;
+    font-size: 1.2rem;
+    line-height: 2;
+    height: 60px;
 }
 
 #banner-btn {
     color: white;
-    background-color: #697A21;
-    padding: 10px;
+    background-color: #1189F6;
+    padding: 6px;
+    width: 100px;
+    text-align: center;
     align-self: center;
+    font-family: "Oswald";
+    text-transform: uppercase;
 }
 
 .banner-text p {
@@ -96,7 +128,7 @@ padding: 20px;
     width: 60%;
     margin: auto;
         display: grid; 
-        grid-template-columns: 1.5fr 0.5fr; 
+        grid-template-columns: 2.5fr 1fr; 
         gap: 0px 0px; 
         grid-template-areas: 
           "Welcome-text Opening-hours ."
@@ -108,26 +140,48 @@ padding: 20px;
 
 .Opening-hours {
     padding-left: 100px;
-    background-color: #FBFBFB;
-    border-radius: 5px;
+    background-color: #ffffff;
+    font-family: "Nunito Sans";
+    font-weight: 600;
+    
+    
+    
 }
 
 .Welcome-text1 { 
     font-size: 1rem;
     color: black;
+    font-family: "Nunito Sans";
+}
+
+.Welcome-text1 h2 { 
+    padding-bottom: 10px;
+    
+}
+
+.Welcome-text1 p { 
+    padding-bottom: 10px;
     
 }
 
 #welcome-text-btn {
-    background-color: red;
+    background-color: #1189F6;
     color: white;
     padding: 10px;
+    font-family: "Oswald";
+    margin-bottom: 10px;
     
 }
 
 #Exhibition-spaces-title {
     width: 60%;
     margin: auto;
+    padding-top: 50px;
+    font-family: "Oswald";
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 2rem;
+    padding-bottom: 20px;
 }
 
 .Exhibition-images {
@@ -153,3 +207,31 @@ padding: 20px;
   }
   .Cosmology { grid-area: Cosmology; }
   .Evolution { grid-area: Evolution; }
+
+  .exhibitions h4 {
+    font-family: "Oswald";
+    font-size: 1.5rem;
+    margin: 0;
+  }
+
+  .Cosmology p {
+    font-family: "Nunito Sans";
+    }
+
+  .Evolution {
+    padding-left: 20px;
+  }
+
+  .Evolution p {
+  font-family: "Nunito Sans";
+  }
+
+  .Learnmorebtn { 
+    font-family: "Oswald";
+    font-weight: 700;
+    background-color: black;
+    color: white;
+    width: 100px;
+    text-align: center;
+    margin-top: 20px;
+  }
