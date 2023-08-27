@@ -57,14 +57,15 @@ padding: 20px;
     color: white;
     font-size: 50px;
     bottom: 100px;
-    left: 300px;
+    left: 350px;
+    text-transform:uppercase; 
 }
   
 #p-index {
     position: absolute;
-    border-radius: 20px black;
     bottom: 20px;
-    left: 300px;
+    left: 350px;
+    text-transform:uppercase; 
 }
 
 .banner-text { 
@@ -123,11 +124,32 @@ padding: 20px;
     padding: 10px;
     
 }
-.exhibtions {
+
+#Exhibition-spaces-title {
     width: 60%;
     margin: auto;
 }
 
+.Exhibition-images {
+    width: 100%;
+    height: 350px;
+    min-height: 350px;
+    object-fit: cover;
+    gap: 40px;
+}
 
 
- 
+.exhibitions {
+    width: 60%;
+    margin: auto;
+   
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+      "Cosmology Evolution ."
+      ". . ."
+      ". . ."; 
+  }
+  .Cosmology { grid-area: Cosmology; }
+  .Evolution { grid-area: Evolution; }
