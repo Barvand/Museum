@@ -1,6 +1,12 @@
 
 
 
+
+
+
+
+/* ---------- General styles------------ */
+
 body {
     margin: 0;
     padding: 0;
@@ -8,14 +14,35 @@ body {
 
 p { 
     margin: 5px;
+    font-family: "Nunito Sans";
+    font-size: 1rem;
+
+}
+
+h1, h2, h3, h4 {
+    font-family: "Oswald";
+}
+
+h1 {
+    font-size: 42px;
 }
 
 h2 {
-    margin: 0;
+    font-size: 30px;
 }
+
+h3 {
+    font-size: 26px;
+}
+
+h4 {
+    font-size: 20px;
+}
+
 
 a {
     text-decoration: none; 
+    font-family: "Oswald";
 }
 #header {
     background-color: black;
@@ -52,16 +79,10 @@ padding: 20px;
     width: 140px;
     height: 60px;
     text-align: center;
-    
-}
-
-.museum-content-box {
-  width: 100%;
-  height: 65vh; 
 }
  
-
-.container {
+/* ---------- BANNER ------------ */
+.container-banner {
     width: 100%;
     position: relative;
     background-image: url(Images/Frontpageindex.png);
@@ -74,22 +95,24 @@ padding: 20px;
 .Welcome-text {
     position: absolute;
     color: white;
-    font-size: 50px;
     bottom: 7vh;
     left: 30vh;
     text-transform:uppercase; 
     font-family: "Oswald";
 }
   
-#p-index {
+#p-banner {
     position: absolute;
     bottom: 7vh;
     left: 30vh;
     text-transform:capitalize;
     font-family: "Nunito Sans";
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 600;
+    color: white;
 }
+
+/* ---------- UNDER BAR BANNER ------------ */
 
 .banner-text { 
     width: 60%;
@@ -123,8 +146,10 @@ padding: 20px;
     background-color: #3E363F;
 }
 
-.container-colourful-div { 
-    padding-top: 50px;
+
+/* ---------- CONTENT 1 ------------ */
+
+.container-content1 { 
     width: 60%;
     margin: auto;
         display: grid; 
@@ -135,28 +160,19 @@ padding: 20px;
           ". . ."
           ". . ."; 
       }
-      .Welcome-text { grid-area: Welcome-text; }
+      .Welcome-text-content1 { grid-area: Welcome-text; }
       .Opening-hours { grid-area: Opening-hours; }
 
 .Opening-hours {
     padding-left: 100px;
     background-color: #ffffff;
-    font-family: "Nunito Sans";
     font-weight: 600;
     
-    
-    
 }
 
-.Welcome-text1 { 
-    font-size: 1rem;
-    color: black;
-    font-family: "Nunito Sans";
-}
 
-.Welcome-text1 h2 { 
+.Welcome-content1  h2 { 
     padding-bottom: 10px;
-    
 }
 
 .Welcome-text1 p { 
@@ -164,14 +180,28 @@ padding: 20px;
     
 }
 
+.p-content1-space {
+    padding-bottom: 10px;
+}
+
+#freeticket-slogan {
+    margin: 20px 0px 20px 0px;
+    font-weight: 600;
+}
+
 #welcome-text-btn {
     background-color: #1189F6;
     color: white;
     padding: 10px;
     font-family: "Oswald";
-    margin-bottom: 10px;
-    
+    text-transform: uppercase;
+    padding: 5px 20px 5px 20px;
 }
+
+
+
+/* ---------- CONTENT 2 EXHIBITIONS ------------ */
+
 
 #Exhibition-spaces-title {
     width: 60%;
@@ -180,7 +210,6 @@ padding: 20px;
     font-family: "Oswald";
     font-weight: 700;
     text-transform: uppercase;
-    font-size: 2rem;
     padding-bottom: 20px;
 }
 
@@ -235,3 +264,51 @@ padding: 20px;
     text-align: center;
     margin-top: 20px;
   }
+
+
+  /* ---------- CONTENT 3 EVENTS ------------ */
+
+
+  .container-events, .Events-title {
+    width: 60%;
+    margin: auto;
+  }
+
+.container-events {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+.container-events img {
+   width: 100%;
+}
+.background-color1 {
+    background-color: #1189F6;
+}
+
+.first-event {
+    background-color: #FBD54D;
+    padding-bottom: 20px;
+}
+
+.second-event {
+    background-color: #26CDF1;
+    padding-bottom: 20px;
+}
+
+.third-event {
+    background-color: #B575F5;
+    padding-bottom: 20px;
+}
+
+#Content3-btn {
+background-color: black;
+color: white;
+padding: 5px 15px 5px 15px;
+margin: 0px 5px 0px 10px;
+text-transform: uppercase;
+}
+
+.space {
+    padding-bottom: 20px;
+}
