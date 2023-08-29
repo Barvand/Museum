@@ -33,6 +33,9 @@ h2 {
 
 h3 {
     font-size: 26px;
+    width: 60%;
+    margin: auto;
+    margin-top: 20px;
 }
 
 h4 {
@@ -48,6 +51,10 @@ a {
     background-color: black;
     height: 100px;
     width: 100%;
+}
+
+.title-events {
+    font-weight: 600;
 }
 
 
@@ -86,6 +93,7 @@ padding: 20px;
     width: 100%;
     position: relative;
     background-image: url(Images/Frontpageindex.png);
+    background-size: 80%;
     background-blend-mode: multiply;
     background-color: rgba(46, 38, 38, 0.363);
     min-height: 750px; 
@@ -277,7 +285,8 @@ padding: 20px;
 .container-events {
     display: flex;
     justify-content: center;
-    gap: 100px;
+    flex-wrap: wrap;
+    gap: 50px;
 }
 .container-events img {
    width: 100%;
@@ -289,16 +298,19 @@ padding: 20px;
 .first-event {
     background-color: #FBD54D;
     padding-bottom: 20px;
+    flex: 1;
 }
 
 .second-event {
     background-color: #26CDF1;
     padding-bottom: 20px;
+    flex: 1;
 }
 
 .third-event {
     background-color: #B575F5;
     padding-bottom: 20px;
+    flex: 1;
 }
 
 #Content3-btn {
@@ -311,4 +323,83 @@ text-transform: uppercase;
 
 .space {
     padding-bottom: 20px;
+}
+
+
+.container-getinvolved {
+    width: 60%;
+    margin: auto;
+    display: flex;
+    gap: 50px;
+}
+
+.container-getinvolved img {
+    width: 100%;
+}
+
+.first-getinvolved{ 
+    flex: 1; 
+}
+
+.second-getinvolved {
+    flex:1;
+}
+
+.third-getinvolved {
+    flex: 1; 
+}
+
+
+
+/* ---------- FOOTER ------------ */
+
+
+footer {
+    padding-top: 50px;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    margin: auto;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.footer-side-color {
+    background-color: black;
+}
+
+.opening-hours-footer {
+    flex: 1;
+    margin-top: 0px;
+}
+
+.opening-hours-footer h4 {
+    flex: 1;
+    margin: 0;
+}
+.navigation-footer { 
+    color: White; 
+    line-height: 3;
+    font-size: 24px;
+    flex: 1;
+}
+
+.navigation-footer p { 
+    color: White; 
+    line-height: 3;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.Donate-btn-banner p {
+    background-color: #B575F5;
+    flex: 1;
+    padding: 20px;
+    margin-top: 20px;
+    font-weight: 600; 
+    font-family: "Oswald";
 }
