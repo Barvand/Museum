@@ -12,14 +12,25 @@ body {
     padding: 0;
 }
 
-p { 
-    margin: 5px;
-    font-family: "Nunito Sans";
-    font-size: 1rem;
-
+.no-margin { 
+    margin: 0;
 }
 
-h1, h2, h3, h4 {
+/* ---------- PADDING BETWEEN SECTIONS AND TITLES------------ */
+
+section { 
+    padding-bottom: 25px;
+    padding-top: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    
+}
+
+/* Typography Styles */
+h1, h2, h3, h4, a  {
     font-family: "Oswald";
 }
 
@@ -33,29 +44,35 @@ h2 {
 
 h3 {
     font-size: 26px;
-    width: 60%;
-    margin: auto;
     margin-top: 20px;
+    text-transform: uppercase;
 }
 
 h4 {
     font-size: 20px;
 }
 
+p { 
+    margin: 5px;
+    font-family: "Nunito Sans";
+    font-size: 1rem;
+}
+
+
 a {
     text-decoration: none; 
-    font-family: "Oswald";
-}
-#header {
-    background-color: black;
-    height: 100px;
-    width: 100%;
 }
 
 .title-events {
     font-weight: 600;
 }
 
+/* HEADER */
+#header {
+    background-color: black;
+    height: 100px;
+    width: 100%;
+}
 
 
 .Logo-nav-holder {
@@ -73,7 +90,7 @@ padding: 20px;
     display: flex;
    justify-content: space-around;
     color: white;
-    font-size: 20px;
+    font-size: 1.2rem;
     line-height: 3;
     font-family: "Oswald";
 }
@@ -87,13 +104,13 @@ padding: 20px;
     text-align: center;
 }
  
-/* ---------- BANNER ------------ */
+/* Banner Styles */
 .container-banner {
     width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: flex-end;
-    background-image: url(Images/Museum-index.jpg);
+    background-image: url(Images/homepage-banner.jpg);
     background-size: 100%;
     background-position: center;
     background-size: cover;
@@ -136,6 +153,7 @@ padding: 20px;
 
 .banner-text { 
     width: 60%;
+    height: 60px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -143,19 +161,14 @@ padding: 20px;
     background-color: #3E363F;
     font-family: "Nunito Sans";
     font-weight: 600;
-    font-size: 1.2rem;
     line-height: 2;
-    height: 60px;
+    
 }
 
 #banner-btn {
     color: white;
     background-color: #1189F6;
-    padding: 6px;
-    width: 100px;
-    text-align: center;
-    align-self: center;
-    font-family: "Oswald";
+    padding: 0.4rem 0.8rem;
     text-transform: uppercase;
 }
 
@@ -166,6 +179,30 @@ padding: 20px;
     background-color: #3E363F;
 }
 
+/* ---------- Title styles - index ------------ */
+
+.Title-seeall-category { 
+    width: 60%;
+    margin: 30px auto 0px auto; 
+    display: flex;
+    
+}
+
+.content-title-h3 { 
+    margin: 0;
+    
+}
+
+.title-clickable-seemore {
+color: #1189F6;
+align-self: end;
+padding-left: 5px;
+line-height: 2;
+}
+
+.clickable-link { 
+    display: inline-block;
+}
 
 /* ---------- CONTENT 1 ------------ */
 
@@ -174,7 +211,6 @@ padding: 20px;
     margin: auto;
         display: grid; 
         grid-template-columns: 2.5fr 1fr; 
-        gap: 0px 0px; 
         grid-template-areas: 
           "Welcome-text Opening-hours ."
           ". . ."
@@ -185,23 +221,11 @@ padding: 20px;
 
 .Opening-hours {
     padding-left: 100px;
-    background-color: #ffffff;
     font-weight: 600;
-    
-}
-
-
-.Welcome-content1  h2 { 
-    padding-bottom: 10px;
-}
-
-.Welcome-text1 p { 
-    padding-bottom: 10px;
-    
 }
 
 .p-content1-space {
-    padding-bottom: 10px;
+    padding-bottom: 20px;
 }
 
 #freeticket-slogan {
@@ -212,10 +236,8 @@ padding: 20px;
 #welcome-text-btn {
     background-color: #1189F6;
     color: white;
-    padding: 10px;
-    font-family: "Oswald";
+    padding: 0.5rem 2rem; 
     text-transform: uppercase;
-    padding: 5px 20px 5px 20px;
 }
 
 
@@ -223,32 +245,13 @@ padding: 20px;
 /* ---------- CONTENT 2 EXHIBITIONS ------------ */
 
 
-#Exhibition-spaces-title {
-    width: 60%;
-    margin: auto;
-    padding-top: 50px;
-    font-family: "Oswald";
-    font-weight: 700;
-    text-transform: uppercase;
-    padding-bottom: 20px;
-}
-
-.Exhibition-images {
-    width: 100%;
-    height: 350px;
-    min-height: 350px;
-    object-fit: cover;
-    gap: 40px;
-}
 
 
 .exhibitions {
     width: 60%;
     margin: auto;
-   
     display: grid; 
     grid-template-columns: 1fr 1fr; 
-    gap: 0px 0px; 
     grid-template-areas: 
       "Cosmology Evolution ."
       ". . ."
@@ -257,22 +260,25 @@ padding: 20px;
   .Cosmology { grid-area: Cosmology; }
   .Evolution { grid-area: Evolution; }
 
+  .Exhibition-images {
+    width: 100%;
+    height: 350px;
+    min-height: 350px;
+    object-fit: cover;
+}
+
   .exhibitions h4 {
-    font-family: "Oswald";
-    font-size: 1.5rem;
     margin: 0;
   }
 
-  .Cosmology p {
-    font-family: "Nunito Sans";
-    }
-
-  .Evolution {
-    padding-left: 20px;
+  .Cosmology {
+    background-color: aliceblue;
   }
 
-  .Evolution p {
-  font-family: "Nunito Sans";
+  .Evolution {
+    background-color: aliceblue;
+  
+    margin-left: 2em; 
   }
 
   .Learnmorebtn { 
@@ -284,6 +290,7 @@ padding: 20px;
     text-align: center;
     margin-top: 20px;
     padding: 10px;
+    text-transform: uppercase;
   }
 
 
@@ -304,7 +311,10 @@ padding: 20px;
 .container-events img {
    width: 100%;
    height: 25vh;
+   max-width: 100%;
+   max-height:25vh;
    object-fit: cover; 
+   max-width: 100%;
 }
 .background-color1 {
     background-color: #1189F6;
@@ -444,16 +454,63 @@ footer {
 
 
 
+/* ---------- EXHIBITION SPACES ------------ */
 
 
+/* ---------- BANNER ------------ */
 
+.Fill-colour { 
+    background-color: black;
+}
 
+.container-banner-exhibition {
+width: 100%;
+margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    background-image: url(Images/banner-exhibition-test.jpg);
+    background-position: center;
+    background-color: grey;
+    background-blend-mode: multiply;
+    background-size: cover;
+    height: 60vh; 
+}
 
+.container-exhibitions {
+    width: 40%;
+    margin: auto;
+}
 
+.exhibition-title {
+    margin: 50px 0px 020px 0px; 
+}
 
+.content-exhibition img { 
+    width: 100%;
+    margin: auto; 
+    height: 300px;
+    object-fit: cover;
+}
 
+.content-exhibition { 
+    padding: 20px 0px 20px 0px; 
+}
 
+.content-title { 
+    margin: 0;
+}
 
+.exhibition-title {
+    border-bottom: 3px black solid;
+}
 
+#Image-adjustment-ecology {
+    object-fit: cover;
+}
 
+.exhibition-arrow-up-btn {
+    width: 40%;
+    
+}
 /* ---------- MEDIA QUERIES ------------ */
