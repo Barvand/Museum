@@ -208,19 +208,13 @@ line-height: 2;
 
 .container-content1 { 
     width: 50%;
+    padding-top: 20px;
     margin: auto;
         display: grid; 
         grid-template-columns: 2.5fr 1fr; 
-        grid-template-areas: 
-          "Welcome-text Opening-hours ."
-          ". . ."
-          ". . ."; 
-      }
-      .Welcome-text-content1 { grid-area: Welcome-text; }
-      .Opening-hours { grid-area: Opening-hours; }
+}
 
-.Opening-hours {
-    margin: 20px 0px 0px 75px; 
+.Opening-hours { 
     text-align: center;
     font-weight: 600;
     background-color: #1189F6;
@@ -255,13 +249,8 @@ line-height: 2;
     margin: auto;
     display: grid; 
     grid-template-columns: 1fr 1fr; 
-    grid-template-areas: 
-      "Cosmology Evolution ."
-      ". . ."
-      ". . ."; 
-  }
-  .Cosmology { grid-area: Cosmology; }
-  .Evolution { grid-area: Evolution; }
+    
+}
 
   .Exhibition-images {
     width: 100%;
@@ -521,4 +510,166 @@ margin: auto;
     width: 40%;
     
 }
+
+/* ---------- COSMOLOGY PAGE ------------ */
+
+
+/* ---------- BANNER ------------ */
+
+.container-banner-cosmology { 
+    width: 100%;
+margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    background-image: url(Images/exhibition-cosmology.jpg);
+    background-position: center;
+    background-color: grey;
+    background-blend-mode: multiply;
+    background-size: cover;
+    height: 60vh; 
+}
+/* ---------- Content Cosmology ------------ */
+
+.container-cosmology-content1 {
+    width: 50%;
+    padding-top: 50px;
+    display: flex;
+    margin: auto;
+    gap: 10px;
+}
+
+.container-cosmology-content1 img {
+    width: 400px;
+    height: 350px;
+    object-fit: cover;
+    flex: 1;
+}
+
+
+
+.Cosmology-text {
+    flex: 1;
+}
+.container-cosmology-content1 h3, p{
+    margin: 0;
+}
+
+.position-paragraph-cosmology { 
+    margin-bottom: 25px;
+}
+
+.title-cosmology-images {
+    width: 50%;
+    margin: auto;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+
+.container-cosmology-content-images {
+    width: 50%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.container-cosmology-content-images img {
+width: 100%;
+height: 300px;
+object-fit: cover;
+}
+
+.booknow-btn-cosmology-page {
+    width: 50%;
+    margin: auto;
+
+
+}
+
+.booknow-btn-cosmology-page h4{
+   color: black;
+
+}
+
+/* ---------- EXPLORE WITH US PAGE  ------------ */
+
+
+.container-banner-explore-page {
+    width: 100%;
+    margin: auto;
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-end;
+        background-image: url(Images/explore-northernlight.jpg);
+        background-color: grey;
+        background-blend-mode: multiply;
+        background-size: fill;
+        background-position: center;
+        height: 60vh; 
+}
+
 /* ---------- MEDIA QUERIES ------------ */
+
+/* ---------- ALL MEDIA QUERIES RELATED TO WIDTH  ------------ */
+
+
+
+
+
+
+
+/* ---------- 1920 PX  ------------ *//* ---------- 1920 PX  ------------ *//* ---------- 1920 PX  ------------ *//* ---------- 1920 PX  ------------ */
+@media (max-width: 1920px) {
+    .container-cosmology-content1, .banner-text, .title-cosmology-images, .container-cosmology-content-images, .arrow-up-btn, .booknow-btn-cosmology-page, .container-content1, .Title-seeall-category, .exhibitions, .container-events, .container-getinvolved {
+        width: 80%;
+    }
+
+  }
+  
+
+
+
+
+
+
+
+
+  /* ---------- 990 PX  ------------ *//* ---------- 990 PX  ------------ *//* ---------- 990 PX  ------------ *//* ---------- 990 PX  ------------ */
+
+  @media (max-width: 990px) {
+    .container-cosmology-content1, .title-cosmology-images, .banner-text, .container-cosmology-content-images, .arrow-up-btn, .booknow-btn-cosmology-page, .container-content1, .Title-seeall-category, .exhibitions, .container-events, .container-getinvolved{
+        width: 95%;
+    }
+
+/* ---------- 990 PX  ------------ *//* ---------- INDEX  ------------ */
+    .container-content1, .exhibitions {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .container-content1 h2, .Evolution {
+        margin: 0;
+    }
+
+    .container-events, .container-getinvolved {
+        flex-direction: column;
+    }
+
+
+
+/* ---------- 990 PX  ------------ */ /* ---------- COSMOLOGY PAGE ------------ */
+
+    .image-cosmology img {
+        width: 100%;
+    }
+        .container-cosmology-content1 {
+            flex-direction: column-reverse;
+        }
+    
+        .container-cosmology-content-images {
+            grid-template-columns: 1fr;
+            
+        }
+        
+  }
