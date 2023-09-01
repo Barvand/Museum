@@ -16,6 +16,10 @@ body {
     margin: 0;
 }
 
+.Container-width-content {
+    width: 50%;
+    margin: auto;
+}
 /* ---------- PADDING BETWEEN SECTIONS AND TITLES------------ */
 
 section { 
@@ -182,7 +186,7 @@ padding: 20px;
 /* ---------- Title styles - index ------------ */
 
 .Title-seeall-category { 
-    width: 50%;
+    width: 100%;
     margin: 30px auto 0px auto; 
     display: flex;
     
@@ -207,8 +211,9 @@ line-height: 2;
 /* ---------- CONTENT 1 ------------ */
 
 .container-content1 { 
-    width: 50%;
+    width: 100%;
     padding-top: 20px;
+    gap: 10px;
     margin: auto;
         display: grid; 
         grid-template-columns: 2.5fr 1fr; 
@@ -245,7 +250,7 @@ line-height: 2;
 
 
 .exhibitions {
-    width: 50%;
+    width: 100%;
     margin: auto;
     display: grid; 
     grid-template-columns: 1fr 1fr; 
@@ -290,7 +295,7 @@ line-height: 2;
 
 
   .container-events, .Events-title {
-    width: 50%;
+    width: 100%;
     margin: auto;
   }
 
@@ -342,7 +347,7 @@ text-transform: uppercase;
 
 
 .container-getinvolved {
-    width: 50%;
+    width: 100%;
     margin: auto;
     display: flex;
     gap: 50px;
@@ -377,7 +382,7 @@ text-transform: uppercase;
 /* ---------- ARROW UP BTN ------------ */
 
 .arrow-up-btn {
-    width: 50%;
+    width: 100%;
     margin: auto;
 }
 
@@ -440,14 +445,6 @@ footer {
     font-weight: 600; 
     font-family: "Oswald";
 }
-
-
-
-
-
-
-
-
 
 
 
@@ -609,6 +606,28 @@ object-fit: cover;
         height: 60vh; 
 }
 
+.container-explore {
+    width: 50%;
+    margin: auto;
+}
+.question-tab {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    background-color: #1189F6;
+    color: white;
+    height: 50px;
+    border-radius: 5px;
+    padding-top: 2px;
+}
+
+.question-tab h4 {
+margin: 10px 0px 0px 20px;
+}
+
+.explore-title {
+    margin: 10px 0px 10px 0px; 
+}
 /* ---------- MEDIA QUERIES ------------ */
 
 /* ---------- ALL MEDIA QUERIES RELATED TO WIDTH  ------------ */
@@ -621,14 +640,14 @@ object-fit: cover;
 
 /* ---------- 1920 PX  ------------ *//* ---------- 1920 PX  ------------ *//* ---------- 1920 PX  ------------ *//* ---------- 1920 PX  ------------ */
 @media (max-width: 1920px) {
-    .container-cosmology-content1, .banner-text, .title-cosmology-images, .container-cosmology-content-images, .arrow-up-btn, .booknow-btn-cosmology-page, .container-content1, .Title-seeall-category, .exhibitions, .container-events, .container-getinvolved {
+    .Container-width-content {
         width: 80%;
     }
 
   }
   
 
-
+  .Container-width-content
 
 
 
