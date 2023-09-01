@@ -453,9 +453,7 @@ footer {
 
 /* ---------- BANNER ------------ */
 
-.Fill-colour { 
-    background-color: black;
-}
+
 
 .container-banner-exhibition {
 width: 100%;
@@ -472,7 +470,7 @@ margin: auto;
 }
 
 .container-exhibitions {
-    width: 40%;
+    width: 100%;
     margin: auto;
 }
 
@@ -504,7 +502,7 @@ margin: auto;
 }
 
 .exhibition-arrow-up-btn {
-    width: 40%;
+    width: 100%;
     
 }
 
@@ -529,7 +527,7 @@ margin: auto;
 /* ---------- Content Cosmology ------------ */
 
 .container-cosmology-content1 {
-    width: 50%;
+    width: 100%;
     padding-top: 50px;
     display: flex;
     margin: auto;
@@ -557,14 +555,14 @@ margin: auto;
 }
 
 .title-cosmology-images {
-    width: 50%;
+    width: 100%;
     margin: auto;
     text-transform: uppercase;
     padding-bottom: 10px;
 }
 
 .container-cosmology-content-images {
-    width: 50%;
+    width: 100%;
     margin: auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -578,7 +576,7 @@ object-fit: cover;
 }
 
 .booknow-btn-cosmology-page {
-    width: 50%;
+    width: 100%;
     margin: auto;
 
 
@@ -607,9 +605,10 @@ object-fit: cover;
 }
 
 .container-explore {
-    width: 50%;
+    width: 100%;
     margin: auto;
 }
+
 .question-tab {
     display: flex;
     justify-content: space-between;
@@ -640,24 +639,16 @@ margin: 10px 0px 0px 20px;
 
 /* ---------- 1920 PX  ------------ *//* ---------- 1920 PX  ------------ *//* ---------- 1920 PX  ------------ *//* ---------- 1920 PX  ------------ */
 @media (max-width: 1920px) {
-    .Container-width-content {
+    .Container-width-content, .banner-text {
         width: 80%;
     }
 
   }
   
-
-  .Container-width-content
-
-
-
-
-
-
   /* ---------- 990 PX  ------------ *//* ---------- 990 PX  ------------ *//* ---------- 990 PX  ------------ *//* ---------- 990 PX  ------------ */
 
   @media (max-width: 990px) {
-    .container-cosmology-content1, .title-cosmology-images, .banner-text, .container-cosmology-content-images, .arrow-up-btn, .booknow-btn-cosmology-page, .container-content1, .Title-seeall-category, .exhibitions, .container-events, .container-getinvolved{
+    .Container-width-content, .banner-text{
         width: 95%;
     }
 
@@ -675,7 +666,7 @@ margin: 10px 0px 0px 20px;
         flex-direction: column;
     }
 
-
+    
 
 /* ---------- 990 PX  ------------ */ /* ---------- COSMOLOGY PAGE ------------ */
 
@@ -692,3 +683,11 @@ margin: 10px 0px 0px 20px;
         }
         
   }
+
+/* ---------- 700 PX  ------------ */
+  @media (max-width: 700px) {
+
+  .hidden-below-900px { 
+    display: none;
+  }
+}
