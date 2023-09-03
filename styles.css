@@ -90,6 +90,10 @@ padding: 20px;
     
 }
 
+#menu-checkbox, .fa-xl {
+    display: none;
+}
+
 #nav-front {
     display: flex;
    justify-content: space-around;
@@ -657,6 +661,37 @@ margin: 10px 0px 0px 20px;
         width: 95%;
     }
 
+/* ---------- 990 PX  ------------ *//* ---------- NAV-HAMBURGER MENU  ------------ */
+.Logo-nav-holder    { 
+    display: inline;
+}
+
+#nav-front { 
+    display: none;
+   position: absolute;
+    background: black; 
+    right: 0px;
+    top: 100px;
+    padding: 60px;
+    background-image: url(Images/Logo.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    border: #1189F6 1px solid;
+    border-top: 0px;
+}
+
+#menu-checkbox:checked ~ #nav-front {
+    display: block;
+}
+
+ .fa-xl {
+    display: block;
+    position: absolute;
+    right: 40px;
+    top: 50px;
+    font-size: 32px;
+}
+
 /* ---------- 990 PX  ------------ *//* ---------- INDEX  ------------ */
     .container-content1, .exhibitions {
         grid-template-columns: 1fr;
@@ -675,6 +710,7 @@ margin: 10px 0px 0px 20px;
 
 /* ---------- 990 PX  ------------ */ /* ---------- COSMOLOGY PAGE ------------ */
 
+
     .image-cosmology img {
         width: 100%;
     }
@@ -686,7 +722,8 @@ margin: 10px 0px 0px 20px;
             grid-template-columns: 1fr;
             
         }
-        
+    
+       
   }
 
 /* ---------- 700 PX  ------------ */
@@ -714,10 +751,27 @@ margin: 10px 0px 0px 20px;
 
   #welcome-text-btn {
     text-align: center;
+
+
   }
   .Opening-hours {
    background-color: #F67E11;
    padding-bottom: 40px;
    padding-top: 20px;
   }
+}
+
+
+@media (max-width: 375px) {
+
+#Logo { 
+    padding-left: 0;
+    
+}
+
+.fa-xl {
+    right: 10px;
+    
+}
+
 }
