@@ -47,7 +47,7 @@ h2 {
 }
 
 h3 {
-    font-size: 26px;
+    font-size: 22px;
     margin-top: 20px;
     text-transform: uppercase;
 }
@@ -578,12 +578,17 @@ object-fit: cover;
 .booknow-btn-cosmology-page {
     width: 100%;
     margin: auto;
-
+    border-top: 2px black solid;
+    border-bottom: 2px black solid;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
 
 }
 
 .booknow-btn-cosmology-page h4{
    color: black;
+   font-family: "Nunito Sans";
+   font-weight: 300;
 
 }
 
@@ -689,5 +694,30 @@ margin: 10px 0px 0px 20px;
 
   .hidden-below-900px { 
     display: none;
+  }
+
+  section {
+    padding: 0;
+
+  }
+  .booknow-btn-cosmology-page {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+  }
+  
+  .Welcome-text-content1 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #welcome-text-btn {
+    text-align: center;
+  }
+  .Opening-hours {
+   background-color: #F67E11;
+   padding-bottom: 40px;
+   padding-top: 20px;
   }
 }
