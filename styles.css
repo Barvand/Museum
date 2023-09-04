@@ -20,12 +20,16 @@ body {
     width: 70%;
     margin: auto;
 }
+
+.Container-width-content-explore {
+    width: 50%;
+    margin: auto;
+}
 /* ---------- PADDING BETWEEN SECTIONS AND TITLES------------ */
 
 section { 
     padding-bottom: 50px;
     padding-top: 0px;
-    border-bottom: 2px dotted #3E363F;
 }
 
 a {
@@ -556,8 +560,6 @@ margin: auto;
     align-items: flex-end;
     background-image: url(Images/exhibition-cosmology.jpg);
     background-position: center;
-    background-color: grey;
-    background-blend-mode: multiply;
     background-size: cover;
     height: 60vh; 
 }
@@ -615,17 +617,23 @@ object-fit: cover;
 .booknow-btn-cosmology-page {
     width: 100%;
     margin: auto;
-    border-top: 2px black solid;
-    border-bottom: 2px black solid;
+    border: 2px rgb(177, 22, 22) solid;;
     padding-bottom: 20px;
     margin-bottom: 20px;
+    background-color: #3E363F;
+    text-align: center;
 
 }
 
+.booknow-btn-cosmology-page a {
+    width: 80%;
+    margin: auto;
+}
+
 .booknow-btn-cosmology-page h4{
-   color: black;
+   color: white;
    font-family: "Nunito Sans";
-   font-weight: 300;
+   font-weight: 600;
 
 }
 
@@ -649,6 +657,7 @@ object-fit: cover;
 .container-explore {
     width: 100%;
     margin: auto;
+    padding-top: 50px;
 }
 
 .question-tab {
@@ -662,13 +671,24 @@ object-fit: cover;
     padding-top: 2px;
 }
 
-.question-tab h4 {
+.question-tab h3 {
 margin: 10px 0px 0px 20px;
 }
 
-.explore-title {
-    margin: 10px 0px 10px 0px; 
+.underline-title {
+    width: 100%;
 }
+
+.text-explore-page {
+ padding-left: 10px;
+}
+
+#contactus-btn {
+background-color: black;
+color: white;
+padding: 5px 10px 5px 10px;
+}
+
 /* ---------- MEDIA QUERIES ------------ */
 
 /* ---------- ALL MEDIA QUERIES RELATED TO WIDTH  ------------ */
@@ -689,7 +709,7 @@ margin: 10px 0px 0px 20px;
 /* ---------- 1300 PX  ------------ *//* ---------- 1300 PX  ------------ *//* ---------- 1300 PX  ------------ *//* ---------- 1300 PX  ------------ */
 
   @media (max-width: 1300px) {
-    .Container-width-content, .banner-text {
+    .Container-width-content, .banner-text, .Container-width-content-explore {
         width: 90%;
     }
 
@@ -699,7 +719,7 @@ margin: 10px 0px 0px 20px;
   /* ---------- 990 PX  ------------ *//* ---------- 990 PX  ------------ *//* ---------- 990 PX  ------------ *//* ---------- 990 PX  ------------ */
 
   @media (max-width: 990px) {
-    .Container-width-content, .banner-text{
+    .Container-width-content, .banner-text, .Container-width-content-explore{
         width: 95%;
     }
 
@@ -709,6 +729,7 @@ margin: 10px 0px 0px 20px;
         padding: 20px 0px 20px 0px;
         box-shadow: 2px 3px 2px 3px #B575F5; 
     }
+
 
 /* ---------- 990 PX  ------------ *//* ---------- NAV-HAMBURGER MENU  ------------ */
 .Logo-nav-holder    { 
@@ -743,27 +764,29 @@ margin: 10px 0px 0px 20px;
     font-size: 32px;
 }
 /* ---------- 990 PX  ------------ *//* ---------- BANNER -TEXT + SOCIAL MEDIA ICONS  ------------ */
-
 .container-banner {
-    display: block;
-    position: relative;
+    flex-direction: column;
+    justify-content:end;
+}
+.banner-image {
+    align-self:flex-start; 
+    padding-left: 5px;
+}
+.social-media-icons {
+    padding: 0;
 }
 
 h1 {
-    font-size: 6vw;
+    font-size: 2rem;
+    
 }
 
-.banner-image {
-    position: absolute;
-    top: 300px;
-    left: 10px;
-}
 #p-banner {
-    font-size: 4vw;
+    font-size: 1.5rem;
 }
 
 .social-media-icons {
-    position: absolute;
+    font-size: 2vw;
     right: 1px;
     bottom: 0px;
 }
@@ -801,7 +824,7 @@ h1 {
             
         }
     
-    
+}
 
 
 
