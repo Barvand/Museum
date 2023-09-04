@@ -750,16 +750,16 @@ margin: 10px 0px 0px 20px;
 }
 
 h1 {
-    font-size: 30px;
+    font-size: 6vw;
 }
 
 .banner-image {
     position: absolute;
-    top: 400px;
+    top: 300px;
     left: 10px;
 }
 #p-banner {
-    font-size: 1rem;
+    font-size: 4vw;
 }
 
 .social-media-icons {
@@ -813,7 +813,7 @@ h1 {
   }
 
   section {
-    padding: 0;
+    padding-bottom: 50px ;
     
 
   }
