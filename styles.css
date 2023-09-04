@@ -74,7 +74,7 @@ h4 {
     font-size: 20px;
 }
 
-p { 
+p, li{ 
     margin: 5px;
     font-family: "Nunito Sans";
     font-size: 1rem;
@@ -689,6 +689,21 @@ color: white;
 padding: 5px 10px 5px 10px;
 }
 
+
+
+.container-banner-visit-page {
+    width: 100%;
+    margin: auto;
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-end;
+        background-image: url(Images/exhibition-robots.jpg);
+        background-color: grey;
+        background-blend-mode: multiply;
+        background-size: cover;
+        background-position: center;
+        height: 60vh; 
+}
 /* ---------- MEDIA QUERIES ------------ */
 
 /* ---------- ALL MEDIA QUERIES RELATED TO WIDTH  ------------ */
