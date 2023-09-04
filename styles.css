@@ -74,7 +74,7 @@ h4 {
     font-size: 20px;
 }
 
-p, li{ 
+p, li, label, input{ 
     margin: 5px;
     font-family: "Nunito Sans";
     font-size: 1rem;
@@ -689,7 +689,7 @@ color: white;
 padding: 5px 10px 5px 10px;
 }
 
-
+/* ---------- VISIT US PAGE ------------ */
 
 .container-banner-visit-page {
     width: 100%;
@@ -704,6 +704,51 @@ padding: 5px 10px 5px 10px;
         background-position: center;
         height: 60vh; 
 }
+/* ---------- TICKET PAGE ------------ */
+
+.container-banner-tickets {
+    width: 100%;
+    margin: auto;
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-end;
+        background-image: url(Images/Tickets-science-museum.jpg);
+        background-color: grey;
+        background-blend-mode: multiply;
+        background-size: cover;
+        background-position: center;
+        height: 60vh; 
+}
+
+.ticket-flex-container {
+    display: flex;
+}
+.ticket-text {
+    flex: 2;
+}
+
+.ticket-purchase {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+    background-color: #1189F6;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.ticket-purchase h3, h4 {
+    margin: 0;
+}
+
+/* ---------- LABEL AND INPUT TICKET PAGE ------------ */
+
+#start, #available {
+    width: 40%;
+    text-align: center;
+}
+
 /* ---------- MEDIA QUERIES ------------ */
 
 /* ---------- ALL MEDIA QUERIES RELATED TO WIDTH  ------------ */
