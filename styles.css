@@ -14,10 +14,14 @@ body {
 
 .no-margin { 
     margin: 0;
+    color: black;
+    font-family: "Nunito Sans";
+
+    font-size: 1.2rem;
 }
 
 .Container-width-content {
-    width: 70%;
+    width: 50%;
     margin: auto;
 }
 
@@ -34,6 +38,7 @@ section {
 
 a {
     text-decoration: none;
+    color: black;
 }
 
 /* ---------- BUTTON STYLES------------ */
@@ -65,6 +70,7 @@ h1 {
 
 h2 {
     font-size: 30px;
+    text-transform: uppercase;
 }
 
 h3 {
@@ -186,7 +192,7 @@ padding: 20px;
 /* ---------- UNDER BAR BANNER ------------ */
 
 .banner-text { 
-    width: 70%;
+    width: 50%;
     height: 60px;
     display: flex;
     align-items: center;
@@ -420,11 +426,9 @@ color: white;
     
 }
 
-#arrow-up-btn { 
+.btn-arrowup { 
     float: right; 
-    background-color: #D9D9D9;
-    padding: 5px 40px 5px 40px;
-    
+    background-color: #1189F6;
 }
 
 /* ---------- FOOTER ------------ */
@@ -513,14 +517,15 @@ margin: auto;
 .content-exhibition img { 
     width: 100%;
     margin: auto; 
-    height: 300px;
+    height: 500px;
     object-fit: cover;
     
 }
 
 .content-exhibition { 
     margin: 20px 5px 20px 0px; 
-    border: 1px solid ;
+    background-color: #D9D9D9;
+    
 }
 
 .exhibition-text {
@@ -651,25 +656,23 @@ object-fit: cover;
 }
 
 .question-tab {
-    display: flex;
-    justify-content: space-between;
-    margin: auto;
     background-color: #1189F6;
     color: white;
-    height: 50px;
+    height: 30px;
     border-radius: 5px;
-    padding-top: 2px;
 }
 
 .question-tab h3 {
-margin: 10px 0px 0px 20px;
+margin: 0; 
+padding: 0px 5px;
+font-size: 18px;
 }
 
 .underline-title {
     width: 100%;
 }
 
-.text-explore-page {
+.text-padding-left {
  padding-left: 10px;
 }
 
@@ -695,7 +698,7 @@ padding: 5px 10px 5px 10px;
     display: flex;
     align-items: flex-end; 
     justify-content: space-between;
-    width: 70%;
+    width: 60%;
     height: 60vh;
     margin: auto;
 }
@@ -719,7 +722,12 @@ padding: 5px 10px 5px 10px;
     display: flex;
 }
 .ticket-text {
+    margin-top: 20px;
+    padding-left: 5px;
     flex: 2;
+    background-color: #FBD54D;
+    background-repeat: no-repeat;
+    background-position: bottom left;
 }
 
 .ticket-text h2 {
@@ -732,8 +740,8 @@ padding: 5px 10px 5px 10px;
     justify-content: center;
     flex: 1;
     background-color: #1189F6;
-    margin-top: 20px;
-    padding: 20px;
+    margin: 20px 0px 10px 10px; 
+    padding: 20px; 
     text-align: center;
     color: white;
 }
@@ -743,6 +751,21 @@ padding: 5px 10px 5px 10px;
     color: rgb(253, 253, 253);
 }
 
+.content2-tickets {
+    background-color: black;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    text-align: center;
+    border-top: 1px black dotted;
+    color: white;
+    background-image: url(Images/Egyptian-background-tcketpage.png) ;
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    
+    
+    
+    
+}
 .explore-title { 
     margin: 10px 0px 0px 0px;
     text-transform: capitalize;
@@ -900,6 +923,10 @@ h1 {
             flex-direction: column-reverse
         }
     
+
+        .ticket-purchase {
+            margin: 0px 10px 0px 10px; 
+        }
 }
 
 
@@ -939,6 +966,14 @@ h1 {
    padding-bottom: 40px;
    padding-top: 20px;
   }
+  }
+
+  @media (max-width: 550px) {
+
+    .content2-tickets {
+        background-image: url(Images/Egyptian-background-tcketpage-smaller.png);
+        background-position: bottom left;
+    }
   }
 
 
