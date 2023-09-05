@@ -354,7 +354,8 @@ line-height: 2;
 }
 
 .second-event {
-    background-color: #26CDF1;
+    background-color: #000000;
+    color: white;
     flex: 1;
     padding: 10px 10px 20px 10px;
 }
@@ -517,7 +518,7 @@ margin: auto;
 .content-exhibition img { 
     width: 100%;
     margin: auto; 
-    height: 500px;
+    height: 400px;
     object-fit: cover;
     
 }
@@ -659,7 +660,6 @@ object-fit: cover;
     background-color: black;
     color: white;
     height: 30px;
-    border-radius: 5px;
 }
 
 .question-tab h3 {
@@ -798,7 +798,7 @@ padding: 5px 10px 5px 10px;
 
 /* ---------- 1920 PX  ------------ *//* ---------- 1920 PX  ------------ *//* ---------- 1920 PX  ------------ *//* ---------- 1920 PX  ------------ */
 @media (max-width: 1920px) {
-    .Container-width-content, .banner-text, .banner-text-flex {
+    .Container-width-content, .banner-text, .banner-text-flex,  .Container-width-content-explore {
         width: 80%;
     }
 
@@ -815,7 +815,7 @@ padding: 5px 10px 5px 10px;
   
   /* ---------- 990 PX  ------------ *//* ---------- 990 PX  ------------ *//* ---------- 990 PX  ------------ *//* ---------- 990 PX  ------------ */
 
-  @media (max-width: 990px) {
+  @media (max-width: 1055px) {
     .Container-width-content, .banner-text, .Container-width-content-explore, .banner-text-flex{
         width: 95%;
     }
@@ -867,7 +867,7 @@ padding: 5px 10px 5px 10px;
 }
 
 .social-media-icons {
-    padding: 0;
+    display: none;
 }
 
 h1 {
