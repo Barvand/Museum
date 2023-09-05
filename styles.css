@@ -656,7 +656,7 @@ object-fit: cover;
 }
 
 .question-tab {
-    background-color: #1189F6;
+    background-color: black;
     color: white;
     height: 30px;
     border-radius: 5px;
@@ -761,6 +761,8 @@ padding: 5px 10px 5px 10px;
     background-image: url(Images/Egyptian-background-tcketpage.png) ;
     background-repeat: no-repeat;
     background-position: bottom left;
+    
+
     
     
     
@@ -971,8 +973,7 @@ h1 {
   @media (max-width: 550px) {
 
     .content2-tickets {
-        background-image: url(Images/Egyptian-background-tcketpage-smaller.png);
-        background-position: bottom left;
+        background-size: 30%;
     }
   }
 
