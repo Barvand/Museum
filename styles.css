@@ -245,11 +245,16 @@ line-height: 2;
 .container-content1 { 
     width: 100%;
     padding-top: 20px;
-    gap: 10px;
     margin: auto;
         display: grid; 
         grid-template-columns: 2.5fr 1fr; 
 
+}
+
+.Welcome-text-content1 {
+    background-color: #FBD54D;
+    padding: 0px 0px 10px 20px; 
+    
 }
 
 .Opening-hours { 
@@ -257,8 +262,20 @@ line-height: 2;
     font-weight: 600;
     background-color: #1189F6;
     color: white;
+    margin: 0px 0px 10px 10px; 
 }
 
+.decorative-image {
+    width: 100%;
+    height: 200px;
+    background-color: black;
+    grid-column: 1 / 3;
+    padding-top: 0px;
+    background-image: url(Images/pharaoh-exhib.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 .p-content1-space {
     padding-bottom: 20px;
 }
@@ -348,31 +365,33 @@ line-height: 2;
 }
 
 .first-event {
-    background-color: #FBD54D;
+    background-color: aliceblue;
     flex: 1;
-    padding: 10px 10px 20px 10px;
 }
 
 .second-event {
-    background-color: #000000;
-    color: white;
+    background-color: aliceblue;
     flex: 1;
-    padding: 10px 10px 20px 10px;
+    
 }
 
 .third-event {
-    background-color: #B575F5;
+    background-color: aliceblue;
     flex: 1;
-    padding: 10px 10px 20px 10px;
+    
 }
 
 .btn-content3 {
-background-color: black;
+background-color: #1189F6;
 color: white;
+margin: 20px 0px 20px 0px ;
 }
 
-.space {
-    padding: 0px 5px 20px 0px; 
+
+.btn-content-color {
+color: black;
+background-color: #1189F6;
+margin: 20px 0px 20px 0px 
 }
 
 
@@ -394,23 +413,22 @@ color: white;
 
 .first-getinvolved{ 
     flex: 1; 
-    padding: 10px 10px 20px 10px;
-    background-color: #B575F5;
+    background-color: aliceblue;
+   
    
     
 }
 
 .second-getinvolved {
     flex:1;
-    padding: 10px 10px 20px 10px;
-    background-color: #26CDF1;
+    background-color: aliceblue;
     
 }
 
 .third-getinvolved {
     flex: 1; 
-    padding: 10px 10px 20px 10px;
-    background-color: #FBD54D;
+    background-color: aliceblue;
+    
     
     
 }
@@ -700,7 +718,7 @@ padding: 5px 10px 5px 10px;
     justify-content: space-between;
     width: 60%;
     height: 60vh;
-    margin: auto;
+    margin: auto;Ticketopenin
 }
 /* ---------- TICKET PAGE ------------ */
 
@@ -820,13 +838,6 @@ padding: 5px 10px 5px 10px;
         width: 95%;
     }
 
-    .Opening-hours {
-        width: 70%;
-        margin: 50px auto 0px auto;
-        padding: 20px 0px 20px 0px;
-        box-shadow: 2px 3px 2px 3px #B575F5; 
-    }
-
 
 /* ---------- 990 PX  ------------ *//* ---------- NAV-HAMBURGER MENU  ------------ */
 .Logo-nav-holder    { 
@@ -892,7 +903,11 @@ h1 {
  /* ---------- GRIDS  ------------ */
     .container-content1, .exhibitions {
         grid-template-columns: 1fr;
-        gap: 20px;
+    }
+
+    .Opening-hours { 
+        grid-row: 3;
+        margin: 0;
     }
 
     .container-content1 h2, .Evolution {
@@ -944,29 +959,6 @@ h1 {
     padding-bottom: 50px ;
     
 
-  }
-  .booknow-btn-cosmology-page {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-
-  }
-  
-  .Welcome-text-content1 {
-    display: flex;
-    flex-direction: column;
-  }
-
-  #welcome-text-btn {
-    text-align: center;
-    
-
-
-  }
-  .Opening-hours {
-   background-color: #F67E11;
-   padding-bottom: 40px;
-   padding-top: 20px;
   }
   }
 
