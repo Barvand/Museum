@@ -57,6 +57,10 @@ a {
     text-decoration: underline;
 }
 
+a:hover {
+    text-decoration: underline;
+}
+
 
 
 /* Typography Styles */
@@ -109,12 +113,12 @@ a {
 .Logo-nav-holder {
     display: flex;
     justify-content: space-around;
+    align-items: center;
 
 }
 
 #Logo { 
 padding: 20px;
-    
 }
 
 #menu-checkbox, .fa-xl {
@@ -122,25 +126,23 @@ padding: 20px;
 }
 
 #nav-front {
-    display: flex;
-   justify-content: space-around;
     color: white;
-    font-size: 1.2rem;
-    line-height: 3;
+    justify-content: space-between;
     font-family: "Oswald";
 }
 
 #nav-front a {
     color: white;
+    font-size: 1.2rem;
+    margin-left: 40px;
+    
 }
 
 .btn-tickets {
     background-color:#1189F6; 
-    padding: 0;
-    margin-left: 40px;
-    width: 140px;
-    height: 60px;
-    text-align: center;
+    padding: 15px 25px 15px 30px;
+    padding-left: 25px;
+    margin-left: 20px;
     
 }
  
@@ -260,7 +262,8 @@ line-height: 2;
     font-weight: 600;
     background-color: #1189F6;
     color: white;
-    margin: 0px 0px 10px 10px; 
+    margin: 0px 0px 10px 10px;
+    padding-bottom: 40px; 
 }
 
 .new-exhibition {
@@ -274,6 +277,8 @@ line-height: 2;
     background-repeat: no-repeat;
     padding-left: 5px;
 }
+
+
 
 #white-h3 {
     color: white;
@@ -449,17 +454,10 @@ margin: 20px 0px 20px 0px
 
 /* ---------- ARROW UP BTN ------------ */
 
-.arrow-up-btn {
-    padding-top: 50px;
-    width: 100%;
-    margin: auto;
-    
-    
-}
-
 .btn-arrowup { 
     float: right; 
     background-color: #1189F6;
+    padding: 0.1rem 2.5rem;
 }
 
 /* ---------- FOOTER ------------ */
@@ -474,11 +472,11 @@ footer {
     background-color: black;
     color: white;
     margin: auto;
-    width: 60%;
+    width: 50%;
     display: flex;
-    justify-content: space-between;
-    
+    justify-content: space-around;
 }
+
 
 .footer-side-color {
     background-color: black;
@@ -493,14 +491,14 @@ footer {
     flex: 1;
     margin: 0;
 }
+
 .navigation-footer { 
-    color: White; 
-    line-height: 3;
-    font-size: 24px;
+    display: flex;
     flex: 1;
+    flex-direction: column;
 }
 
-.navigation-footer p { 
+.navigation-footer a { 
     color: White; 
     line-height: 3;
     font-size: 18px;
@@ -834,7 +832,7 @@ padding: 5px 10px 5px 10px;
   /* ---------- 1055px ------------ *//* ---------- 990 PX  ------------ *//* ---------- 990 PX  ------------ *//* ---------- 990 PX  ------------ */
 
   @media (max-width: 1055px) {
-    .Container-width-content, .banner-text, .Container-width-content-explore, .banner-text-flex{
+    .Container-width-content, .banner-text, .Container-width-content-explore, .banner-text-flex, .footer{
         width: 95%;
     }
 
@@ -846,22 +844,26 @@ padding: 5px 10px 5px 10px;
 
 #nav-front { 
     display: none;
-   position: absolute;
+    position: absolute;
     background: black; 
-    top: 100px;
     width: 100%;
-    text-align: center;
+    
+    left: 0;
+    
 }
 
-.booknow-btn {
-   width: 80%;
-   margin: 0 auto 20px auto;
-   padding-left: 40px;
-   
-}
-
-#menu-checkbox:checked ~ #nav-front {
+#nav-front a {
     display: block;
+    text-align: center;
+    padding: 30px 0px 30px 30px;
+    margin: 0;
+}
+
+
+
+#menu-checkbox:checked ~ #nav-front  {
+    display: inline-block;
+    
 }
 
  .fa-xl {
@@ -901,20 +903,34 @@ h1 {
     }
 
     .Opening-hours { 
-        grid-row: 3;
-        margin: 0;
-        padding-bottom: 20px;
+        grid-row: 2;
+        margin: 0 10px 0px 10px;
+        padding: 0;
+        
     }
 
     .container-content1 h2, .Evolution {
         margin: 0;
     }
 
-    /* ---------- 990 PX  ------------ *//* ---------- FLEX-CONTAINERS  ------------ */
+    /* ---------- 1055 PX  ------------ *//* ---------- FLEX-CONTAINERS  ------------ */
     .container-events, .container-getinvolved, .ticket-flex-container {
         flex-direction: column;
     }
 
+    .new-exhibition-text {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    #white-p {
+        position: absolute;
+        top: 150px;
+        font-size: 1rem;
+
+    }
     
 
 /* ---------- 1055px  ------------ */ /* ---------- COSMOLOGY PAGE ------------ */
@@ -945,17 +961,21 @@ h1 {
 
 
 /* ---------- 700 PX  ------------ */
-  @media (max-width: 700px) {
+  @media (max-width: 750px) {
 
   .hidden-below-900px { 
     display: none;
   }
 
   section {
-    padding-bottom: 50px ;
+    padding-bottom: 10px ;
     
 
   }
+
+  .opening-hours-footer {
+   display: none;
+  } 
   }
 
   @media (max-width: 550px) {
