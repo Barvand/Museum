@@ -93,14 +93,14 @@ p, li, label, input{
     font-size: 1rem;
 }
 
+.events-activities-h3 {
+    margin: 0;
+}
 
 a {
     text-decoration: none; 
 }
 
-.title-events {
-    font-weight: 600;
-}
 
 /* HEADER */
 #header {
@@ -226,7 +226,7 @@ padding: 20px;
     
 }
 
-.content-title-h3 { 
+.content-title-h2 { 
     margin: 0;
     
 }
@@ -457,7 +457,7 @@ margin: 20px 0px 20px 0px
 .btn-arrowup { 
     float: right; 
     background-color: #1189F6;
-    padding: 0.1rem 2.5rem;
+    padding: 10px 10px;
 }
 
 /* ---------- FOOTER ------------ */
