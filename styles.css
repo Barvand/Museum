@@ -85,6 +85,7 @@ h3 {
 h4 {
     font-size: 20px;
     font-family: "Oswald";
+   
 }
 
 p, li, label, input{ 
@@ -95,6 +96,7 @@ p, li, label, input{
 
 .events-activities-h3 {
     margin: 0;
+    
 }
 
 a {
@@ -320,10 +322,6 @@ font-family: "Oswald";
     
 }
 
-.exhibitions  h4{
-   color: black;
-    
-}
 
   .Exhibition-images {
     width: 100%;
@@ -761,7 +759,7 @@ padding: 5px 10px 5px 10px;
     color: white;
 }
 
-.ticket-purchase h3, h4 {
+.ticket-purchase h3, .ticket-purchase h4 {
     margin: 0;
     color: rgb(253, 253, 253);
 }
@@ -812,6 +810,8 @@ padding: 5px 10px 5px 10px;
         background-image: url(Images/thankyou-tickets.jpg);
         background-size: cover;
         background-repeat: no-repeat;
+        background-blend-mode: multiply;
+        background-color: #706a6a;
         background-position: center;
         height: 60vh; 
 }
