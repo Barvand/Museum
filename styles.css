@@ -34,7 +34,7 @@ section {
 
 a {
     text-decoration: none; 
-    color: black;
+    
     
 }
 
@@ -125,11 +125,6 @@ padding: 20px;
     display: none;
 }
 
-#nav-front {
-    color: white;
-    justify-content: space-between;
-    font-family: "Oswald";
-}
 
 #nav-front a {
     color: white;
@@ -139,13 +134,12 @@ padding: 20px;
 }
 
 .btn-tickets {
-    background-color:#1189F6; 
-    color: black;
+    background-color:#0657A2; 
     padding: 15px 25px 15px 30px;
     padding-left: 25px;
     margin-left: 20px;
-    
 }
+
  
 /* Banner Styles */
 .container-banner {
@@ -207,11 +201,11 @@ padding: 20px;
 
 .btn-banner {
     color: black;
-    background-color: #1189F6;
+    background-color: #EDCA28;
 }
 
 .banner-text p {
-    color: white;
+    color: #FFFFFF;
 }
 .banner-side-color {
     background-color: #3E363F;
@@ -262,7 +256,7 @@ font-family: "Oswald";
 .Opening-hours { 
     text-align: center;
     font-weight: 600;
-    background-color: #1189F6;
+    background-color: #0657A2;
     color: white;
     margin: 0 0 10px 10px;
     padding-bottom: 40px; 
@@ -305,7 +299,7 @@ font-family: "Oswald";
 }
 
 .btn-welcometext {
-    background-color: #1189F6;
+    background-color: #0657A2;
     color: white;
     
 }
@@ -456,9 +450,12 @@ margin: 20px 0 20px 0;
 
 .btn-arrowup { 
     float: right; 
-    background-color: #1189F6;
-    padding: 10px 10px;
+    background-color: #0657A2;
+    padding: 0px 10px 0 10px;
+    margin: 0;
+    
 }
+
 
 /* ---------- FOOTER ------------ */
 
@@ -506,9 +503,9 @@ footer {
 }
 
 .btn-donate-footer {
-   background-color: #1189F6;
+   background-color: #0657A2;
    margin-top:20px;
-   color: #D9D9D9;
+   color: #ffffff;
 }
 
 
@@ -573,10 +570,6 @@ margin-left: 5px;
     object-fit: cover;
 }
 
-.exhibition-arrow-up-btn {
-    width: 100%;
-    
-}
 
 /* ---------- COSMOLOGY PAGE ------------ */
 
@@ -847,7 +840,6 @@ padding: 5px 10px 5px 10px;
     position: absolute;
     background: black; 
     width: 100%;
-    
     left: 0;
     
 }
@@ -890,6 +882,11 @@ h1 {
 
 #p-banner {
     font-size: 1.5rem;
+}
+
+.btn-banner {
+    background-color: #0657A2;
+    color: white;
 }
 
 
