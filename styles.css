@@ -168,7 +168,7 @@ padding: 20px;
 }
   
 #p-banner {
-
+    margin-top: 0;
     text-transform:capitalize;
     font-family: "Nunito Sans";
     font-size: 1.5rem;
@@ -283,7 +283,8 @@ font-family: "Oswald";
 }
 
 #white-p {
-    color: red;
+    margin: 0;
+    color: #EDCA28;
     font-size: 20px;
     font-weight: 600;
     padding-left: 5px;
@@ -515,15 +516,15 @@ margin: auto;
 .content-exhibition img { 
     width: 100%;
     margin: auto; 
-    height: 400px;
+    height: 300px;
     object-fit: cover;
     
 }
 
 .content-exhibition { 
     margin: 20px 5px 20px 5px; 
-    border: rgba(230, 234, 238, 0.808) px solid;
-    background-color: #f7fcfcd5;
+    border: rgba(230, 234, 238, 0.808) 1px solid;
+    background-color: aliceblue; 
 }
 
 .exhibition-text {
@@ -602,7 +603,7 @@ object-fit: cover;
     margin: auto;
     padding-bottom: 20px;
     margin-bottom: 20px;
-    background-color: black;
+    background-color: #3E363F;
     text-align: center;
 
 }
@@ -705,7 +706,7 @@ padding: 5px 10px 5px 10px;
 }
 .ticket-text {
     margin-top: 20px;
-    padding: 5px 0 25px 5px;
+    padding: 5px 10px 25px 10px;
     flex: 2;
     background-color: #2A5953;
     color: white;
@@ -899,13 +900,15 @@ h1 {
         grid-row: 2;
         margin: 0 10px 0px 10px;
         padding: 20px 0 20px 0; 
-
-        
-        
     }
 
     .container-content1 h2, .Evolution {
         margin: 0;
+    }
+
+    .Welcome-text-content1 {
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
 
     /* ---------- 1055 PX  ------------ *//* ---------- FLEX-CONTAINERS  ------------ */
