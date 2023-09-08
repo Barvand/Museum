@@ -746,13 +746,13 @@ padding: 5px 10px 5px 10px;
     background-repeat: no-repeat;
     background-position: bottom left;
     font-weight: 600;
+}
+
+.banner-tickets {
+    justify-content: center;
+}
     
 
-    
-    
-    
-    
-}
 .explore-title { 
     margin: 10px 0px 0px 0px;
     text-transform: inherit;
