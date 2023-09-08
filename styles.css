@@ -31,14 +31,7 @@ section {
     padding-top: 0;
 }
 
-a {
-    text-decoration: none; 
-    color: black;
-    
-    
-}
-
-/* ---------- BUTTON STYLES------------ */
+/* ---------- BUTTON STYLES AND HOVERS ------------ */
 
 .btn {
     display: inline-block;
@@ -55,11 +48,18 @@ a {
     text-decoration: underline;
 }
 
+
+/* ---------- A HYPERLINK STYLES & HOVERS ------------ */
+
 a:hover {
     text-decoration: underline;
 }
 
-
+a {
+    text-decoration: none; 
+    color: black;
+    font-family: "Oswald";
+}
 
 /* Typography Styles */
 
@@ -97,20 +97,15 @@ p, li, label, input{
     
 }
 
-a {
-    font-family: "Oswald";
-   
-}
 
-
-/* HEADER */
+/* HEADER *//* HEADER *//* HEADER *//* HEADER *//* HEADER *//* HEADER *//* HEADER */
 #header {
     background-color: black;
     height: 100px;
     width: 100%;
 }
 
-
+/* HEADER */
 .Logo-nav-holder {
     display: flex;
     justify-content: space-around;
@@ -126,7 +121,7 @@ padding: 20px;
     display: none;
 }
 
-
+/* NAV */
 #nav-front a {
     color: white;
     font-size: 1.2rem;
@@ -159,7 +154,6 @@ padding: 20px;
 .Welcome-text {
     color: white;
     text-transform:uppercase; 
-    font-family: "Oswald";
     margin-bottom: 50px;
 }
 
@@ -177,7 +171,7 @@ padding: 20px;
 }
 
 .social-media-icons {
-    padding-bottom: 50px;
+    margin-bottom: 50px;
 }
 
 #positioning-margin-instagram {
@@ -188,14 +182,12 @@ padding: 20px;
 
 .banner-text { 
     width: 50%;
-    height: 60px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin: auto;
     background-color: #3E363F;
     font-weight: 600;
-    
 }
 
 .btn-banner {
@@ -206,6 +198,7 @@ padding: 20px;
 .banner-text p {
     color: #FFFFFF;
 }
+
 .banner-side-color {
     background-color: #3E363F;
 }
@@ -217,16 +210,14 @@ padding: 20px;
     margin: 30px auto 10px auto; 
     display: flex;
     border-bottom: 2px rgb(219, 216, 216) solid;
-    
 }
 
 .content-title-h2 { 
     margin: 0;
-    
 }
 
-.title-clickable-seemore {
-color: #ff0000;
+.title-clickable-seeall {
+color: #000000b6;
 align-self: flex-end;
 padding-left: 5px;
 line-height: 2;
@@ -235,9 +226,11 @@ font-family: "Oswald";
 }
 
 
-
-/* ---------- CONTENT 1 ------------ */
-
+/* ---------- CONTENT 1 ------------ */ /* ---------- INDEX ------------ */
+ .Container-width-content p, .container-exhibitions p, .Container-width-content-explore p {
+    margin-top: 5px;
+ }
+ 
 .container-content1 { 
     width: 100%;
     padding-top: 20px;
@@ -247,12 +240,37 @@ font-family: "Oswald";
 
 }
 
+
+
+
+/* ---------- Welcome text ------------ */ 
+
 .Welcome-text-content1 {
     background-color: #2A5953;
     color: white;
     padding: 0 5px 10px 20px; 
     
 }
+
+.Welcome-text-content1 h2 {
+    margin: 25px 0px 0px 0px;
+}
+.p-content1-space {
+    padding: 0px 40px 20px 0px;
+}
+
+#freeticket-slogan {
+    padding: 30px 0 20px 0;
+    font-weight: 600;
+}
+
+.btn-welcometext {
+    background-color: #EDCA28;
+    color: black;
+    
+}
+
+/* ---------- Opening hours - content 1 ------------ */ 
 
 .Opening-hours { 
     text-align: center;
@@ -263,8 +281,14 @@ font-family: "Oswald";
     padding-bottom: 40px; 
 }
 
+.Opening-hours p {
+    margin-top: 10px;
+}
+
+/* ---------- NEW PHARAOH EXHIBITION ------------ */ 
+
 .new-exhibition {
-    height: 200px;
+    height: 150px;
     background-color: black;
     grid-column: 1 / 3;
     padding-top: 0;
@@ -287,23 +311,6 @@ font-family: "Oswald";
     color: #EDCA28;
     font-size: 20px;
     font-weight: 600;
-    padding-left: 5px;
-
-}
-
-.p-content1-space {
-    padding-bottom: 20px;
-}
-
-#freeticket-slogan {
-    margin: 20px 0 20px 0;
-    font-weight: 600;
-}
-
-.btn-welcometext {
-    background-color: #EDCA28;
-    color: black;
-    
 }
 
 
@@ -315,7 +322,6 @@ font-family: "Oswald";
 
 .exhibitions {
     width: 100%;
-    margin: auto;
     display: grid; 
     grid-template-columns: 1fr 1fr; 
     
@@ -339,7 +345,6 @@ font-family: "Oswald";
 
   .Evolution {
     background-color: aliceblue;
-  
     margin-left: 2em; 
   }
 
@@ -351,18 +356,11 @@ font-family: "Oswald";
   }
 
 
-  /* ---------- CONTENT 3 EVENTS ------------ */
+  /* ---------- CONTENT 3 UPCOMING EVENTS ------------ */
 
-
-  .container-events, .Events-title {
-    width: 100%;
-    margin: auto;
-  }
 
 .container-events {
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
     gap: 25px;
 }
 .container-events img {
@@ -371,11 +369,6 @@ font-family: "Oswald";
    object-fit: cover; 
    max-width: 100%;
 }
-.background-color1 {
-    background-color: #1189F6;
-}
-
-
 
 .event-content {
     flex: 1;
@@ -384,32 +377,16 @@ font-family: "Oswald";
     
 }
 
+/* ---------- CONTENT 4 UPCOMING ACTIVITIES  ------------ */
 
-.btn-content3 {
-background-color: #1189F6;
-color: white;
-margin: 20px 0 20px 0;
-}
-
-
-.btn-content-color {
-color: black;
-background-color: #1189F6;
-margin: 20px 0 20px 0; 
-}
-
-
-.container-getinvolved {
-    width: 100%;
-    margin: auto;
+.container-activities {
     display: flex;
     gap: 25px;
 }
 
 
-.container-getinvolved img {
+.container-activities img {
     width: 100%;
-    height: auto; 
     object-fit: cover;
     height: 250px;
 }
@@ -444,7 +421,6 @@ footer {
     margin: auto;
     width: 50%;
     display: flex;
-    justify-content: space-around;
 }
 
 
@@ -454,7 +430,6 @@ footer {
 
 .opening-hours-footer {
     flex: 1;
-    margin-top: 0;
 }
 
 .opening-hours-footer h4 {
@@ -483,7 +458,7 @@ footer {
 
 
 
-/* ---------- EXHIBITION SPACES ------------ */
+/* ---------- EXHIBITION SPACES ------------ */ /* ---------- PAGE 2 ------------ */
 
 
 /* ---------- BANNER ------------ */
@@ -491,8 +466,8 @@ footer {
 
 
 .container-banner-exhibition {
-width: 100%;
-margin: auto;
+    width: 100%;
+    margin: auto;
     display: flex;
     justify-content: space-around;
     align-items: flex-end;
@@ -504,13 +479,10 @@ margin: auto;
     height: 60vh; 
 }
 
-.container-exhibitions {
-    width: 100%;
-    margin: auto;
-}
-
 .exhibition-title {
     margin: 50px 0px 020px 0px; 
+    border-bottom: 2px rgb(219, 216, 216) solid;
+
 }
 
 .content-exhibition img { 
@@ -523,7 +495,6 @@ margin: auto;
 
 .content-exhibition { 
     margin: 20px 5px 20px 5px; 
-    border: rgba(230, 234, 238, 0.808) 1px solid;
     background-color: aliceblue; 
 }
 
@@ -531,14 +502,10 @@ margin: auto;
 margin-left: 5px; 
 }
 
-
 .content-title { 
     margin: 0;
 }
 
-.exhibition-title {
-    border-bottom: 3px black solid;
-}
 
 #Image-adjustment-ecology {
     object-fit: cover;
@@ -564,25 +531,19 @@ margin: auto;
 /* ---------- Content Cosmology ------------ */
 
 .container-cosmology-content1 {
-    width: 100%;
     display: flex;
-    margin: auto;
-    gap: 10px;
+    gap: 50px;
 }
 
 .container-cosmology-content1 img {
     width: 400px;
     height: 350px;
     object-fit: cover;
-    flex: 1;
 }
 
 
 .title-cosmology-images {
-    color: black;
-    text-transform: uppercase;
-    border-bottom: 2px black solid;
-    margin-bottom: 20px;
+    border-bottom: 2px rgb(219, 216, 216) solid;
 }
 
 .container-cosmology-content-images {
@@ -599,6 +560,10 @@ height: 300px;
 object-fit: cover;
 }
 
+.cosmology-content {
+    background-color: #2A5953;
+    color: white;
+}
 .booknow-btn-cosmology-page {
     margin: auto;
     padding-bottom: 20px;
@@ -608,7 +573,6 @@ object-fit: cover;
 
 }
 
-
 .booknow-btn-cosmology-page h4{
     padding-top: 20px;
    padding-bottom: 20px;
@@ -616,7 +580,7 @@ object-fit: cover;
 
 }
 
-/* ---------- EXPLORE WITH US PAGE  ------------ */
+/* ---------- GET INVOLVED / EXPLORE  ------------ */
 
 
 .container-banner-explore-page {
@@ -633,30 +597,21 @@ object-fit: cover;
         height: 60vh; 
 }
 
-.container-explore {
-    width: 100%;
-    margin: auto;
-    padding-top: 50px;
-}
 
 .question-tab {
-    background-color: black;
+    background-color: #3E363F;
     color: white;
     height: 30px;
 }
 
 .question-tab h3 {
-margin: 0; 
 padding: 0px 5px;
 font-size: 18px;
 }
 
-.underline-title {
-    width: 100%;
-}
 
 .text-padding-left {
- padding-left: 10px;
+ padding-left: 5px;
 }
 
 #contactus-btn {
@@ -912,7 +867,7 @@ h1 {
     }
 
     /* ---------- 1055 PX  ------------ *//* ---------- FLEX-CONTAINERS  ------------ */
-    .container-events, .container-getinvolved, .ticket-flex-container {
+    .container-events, .container-activities, .ticket-flex-container {
         flex-direction: column;
     }
 
@@ -925,7 +880,7 @@ h1 {
 
     #white-p {
         position: absolute;
-        top: 150px;
+        top: 110px;
         font-size: 1rem;
 
     }
