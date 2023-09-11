@@ -50,6 +50,7 @@ section {
 }
 .Learnmorebtn:hover {
     text-decoration: underline;
+
 }
 
 
@@ -201,6 +202,11 @@ padding: 20px;
 .btn-banner {
     color: black;
     background-color: #EDCA28;
+}
+
+.btn-banner:hover {
+background-color: #99831f;
+    color: white;
 }
 
 .banner-text p {
@@ -429,6 +435,7 @@ footer {
     margin: auto;
     width: 50%;
     display: flex;
+    justify-content: space-between;
 }
 
 
@@ -436,18 +443,35 @@ footer {
     background-color: black;
 }
 
-.opening-hours-footer {
-    flex: 1;
+
+.location-socialmedia h4 {
+    margin: 0;
+    padding-top: 10px;
+    color: #EDCA28;
+    font-size: 1rem;
+    font-family: "Nunito Sans";
 }
 
-.opening-hours-footer h4 {
-    flex: 1;
+.location-socialmedia p {
     margin: 0;
 }
 
+.location-socialmedia {
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between;
+    
+    
+}
+
+.location-socialmedia p {
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+
 .navigation-footer { 
     display: flex;
-    flex: 1;
     flex-direction: column;
 }
 
@@ -652,10 +676,12 @@ font-weight: 600;
 .submit-btn {
     background-color: #EDCA28;
     float: right;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
     cursor: pointer;
+    display: inline-block;
+  padding: 0.5em 3em;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Oswald";
   }
 
   .submit-btn:hover {
@@ -811,7 +837,7 @@ font-weight: 600;
 
 /* ---------- 1920 PX  ------------ *//* ---------- 1920 PX  ------------ *//* ---------- 1920 PX  ------------ *//* ---------- 1920 PX  ------------ */
 @media (max-width: 1920px) {
-    .Container-width-content, .banner-text, .banner-text-flex,  .Container-width-content-explore {
+    .Container-width-content, .banner-text, .banner-text-flex,  .Container-width-content-explore, .footer {
         width: 80%;
     }
 
@@ -819,7 +845,7 @@ font-weight: 600;
 /* ---------- 1300 PX  ------------ *//* ---------- 1300 PX  ------------ *//* ---------- 1300 PX  ------------ *//* ---------- 1300 PX  ------------ */
 
   @media (max-width: 1300px) {
-    .Container-width-content, .banner-text, .Container-width-content-explore, .banner-text-flex {
+    .Container-width-content, .banner-text, .Container-width-content-explore, .banner-text-flex, .footer {
         width: 90%;
     }
 
@@ -900,7 +926,7 @@ h1 {
 
     .Opening-hours { 
         grid-row: 2;
-        margin: 0 10px 0px 10px;
+        margin: 0;
         padding: 20px 0 20px 0; 
     }
 
@@ -954,7 +980,7 @@ h1 {
     
 
         .ticket-purchase {
-            margin: 0px 10px 0px 10px; 
+            margin: 0; 
         }
 }
 
@@ -973,9 +999,21 @@ h1 {
 
   }
 
-  .opening-hours-footer {
-   display: none;
-  } 
+  
+  }
+
+  @media (max-width: 550px) {
+    .footer {
+        flex-direction: column-reverse;
+    }
+
+    .navigation-footer { 
+        border-bottom: 1px white solid;
+        border-top: 1px white solid;
+        margin: 20px 0 20px 0;
+    }
+
+
   }
 
   @media (max-width: 550px) {
