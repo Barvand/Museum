@@ -172,9 +172,8 @@ padding: 20px;
   
 #p-banner {
     margin-top: 0;
-    text-transform:capitalize;
-    font-family: "Nunito Sans";
-    font-size: 1.5rem;
+    text-transform:inherit;
+    font-size: 1.2rem;
     font-weight: 600;
     color: white;
 }
@@ -448,7 +447,7 @@ footer {
     margin: 0;
     padding-top: 10px;
     color: #EDCA28;
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-family: "Nunito Sans";
 }
 
@@ -466,7 +465,7 @@ footer {
 
 .location-socialmedia p {
     font-weight: 600;
-    font-size: 1rem;
+    
 }
 
 
@@ -910,9 +909,7 @@ h1 {
     
 }
 
-#p-banner {
-    font-size: 1.5rem;
-}
+
 
 
 
