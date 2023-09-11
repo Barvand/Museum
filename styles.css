@@ -623,7 +623,7 @@ object-fit: cover;
         justify-content: space-around;
         align-items: flex-end;
         background-image: url(Images/explore-northernlight.jpg);
-        background-color: grey;
+        background-color: rgba(7, 7, 7, 0.5);
         background-blend-mode: multiply;
         background-size: 100%;
         background-position: center;
@@ -697,7 +697,7 @@ font-weight: 600;
 .container-banner-visit-page {
     width: 100%;
         background-image: url(Images/exhibition-robots.jpg);
-        background-color: grey;
+        background-color: rgba(7, 7, 7, 0.5);
         background-blend-mode: multiply;
         background-size: cover;
         background-position: center;
