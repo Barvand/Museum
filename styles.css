@@ -555,8 +555,6 @@ margin: auto;
     justify-content: space-around;
     align-items: flex-end;
     background-image: url(Images/exhibition-cosmology.jpg);
-    background-color: grey;
-    background-blend-mode: multiply;
     background-position: center;
     background-size: cover;
     height: 60vh; 
