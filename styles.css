@@ -936,6 +936,11 @@ h1 {
         padding-bottom: 20px;
     }
 
+    #freeticket-slogan { 
+        margin: 0;
+        padding: 0;
+    }
+
     /* ---------- 1110 PX  ------------ *//* ---------- FLEX-CONTAINERS  ------------ */
     .container-events, .container-activities, .ticket-flex-container {
         flex-direction: column;
@@ -1002,6 +1007,7 @@ h1 {
   @media (max-width: 550px) {
     .footer {
         flex-direction: column-reverse;
+        padding-bottom: 10px;
     }
 
     .navigation-footer { 
