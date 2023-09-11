@@ -117,6 +117,10 @@ p, li, label, input{
 
 }
 
+b {
+    display: none;
+}
+
 #Logo { 
 padding: 20px;
 }
@@ -822,13 +826,13 @@ font-weight: 600;
   
   /* ---------- 1055px ------------ *//* ---------- 990 PX  ------------ *//* ---------- 990 PX  ------------ *//* ---------- 990 PX  ------------ */
 
-  @media (max-width: 1055px) {
+  @media (max-width: 1110px) {
     .Container-width-content, .banner-text, .Container-width-content-explore, .banner-text-flex, .footer{
         width: 95%;
     }
 
 
-/* ---------- 1055px  ------------ *//* ---------- NAV-HAMBURGER MENU  ------------ */
+/* ---------- 1110px  ------------ *//* ---------- NAV-HAMBURGER MENU  ------------ */
 .Logo-nav-holder    { 
     display: inline;
 }
@@ -863,7 +867,7 @@ font-weight: 600;
     top: 50px;
     font-size: 32px;
 }
-/* ---------- 1055px PX  ------------ *//* ---------- BANNER -TEXT + SOCIAL MEDIA ICONS  ------------ */
+/* ---------- 1110px PX  ------------ *//* ---------- BANNER -TEXT + SOCIAL MEDIA ICONS  ------------ */
 .container-banner {
     flex-direction: column;
     justify-content:end;
@@ -885,7 +889,7 @@ h1 {
 
 
 
-/* ---------- 1055px  ------------ *//* ---------- INDEX  ------------ */
+/* ---------- 1110px  ------------ *//* ---------- INDEX  ------------ */
 
  /* ---------- GRIDS  ------------ */
     .container-content1, .exhibitions {
@@ -907,7 +911,7 @@ h1 {
         padding-bottom: 20px;
     }
 
-    /* ---------- 1055 PX  ------------ *//* ---------- FLEX-CONTAINERS  ------------ */
+    /* ---------- 1110 PX  ------------ *//* ---------- FLEX-CONTAINERS  ------------ */
     .container-events, .container-activities, .ticket-flex-container {
         flex-direction: column;
     }
@@ -927,7 +931,7 @@ h1 {
     }
     
 
-/* ---------- 1055px  ------------ */ /* ---------- COSMOLOGY PAGE ------------ */
+/* ---------- 1110px  ------------ */ /* ---------- COSMOLOGY PAGE ------------ */
 
 
     .image-cosmology img {
