@@ -337,7 +337,7 @@ font-family: "Oswald";
     width: 100%;
     display: grid; 
     grid-template-columns: 1fr 1fr;
-    gap: 20px;
+    gap: 30px;
     
 }
 
@@ -349,8 +349,19 @@ font-family: "Oswald";
     object-fit: cover;
 }
 
-  .exhibitions h4 {
-    margin: 0;
+
+
+  .Cosmology {
+    background-color: #EDCA28;
+  }
+
+  .Evolution {
+   background-color: #2A5953;
+   color: white;
+  }
+
+  .text-padding-index {
+    padding: 0 10px 0 10px;
   }
 
   .btn-learnmore { 
@@ -635,7 +646,7 @@ font-size: 18px;
 }
 
 
-.text-padding-left {
+.text-padding-index {
  padding-left: 5px;
 }
 
