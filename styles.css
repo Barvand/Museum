@@ -946,19 +946,13 @@ h1 {
         flex-direction: column;
     }
 
-    .new-exhibition-text {
-        position: relative;
+    .new-exhibition {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
     }
 
-    #white-p {
-        position: absolute;
-        top: 110px;
-        font-size: 1rem;
-
-    }
+  
     
 
 /* ---------- 1110px  ------------ */ /* ---------- COSMOLOGY PAGE ------------ */
