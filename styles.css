@@ -336,7 +336,8 @@ font-family: "Oswald";
 .exhibitions {
     width: 100%;
     display: grid; 
-    grid-template-columns: 1fr 1fr; 
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
     
 }
 
@@ -350,15 +351,6 @@ font-family: "Oswald";
 
   .exhibitions h4 {
     margin: 0;
-  }
-
-  .Cosmology {
-    background-color: aliceblue;
-  }
-
-  .Evolution {
-    background-color: aliceblue;
-    margin-left: 2em; 
   }
 
   .btn-learnmore { 
