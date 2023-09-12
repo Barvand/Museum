@@ -141,6 +141,7 @@ padding: 20px;
 .btn-tickets {
     background-color:#2A5953; 
     color: white;
+    padding: 0.5em 2em;
 }
 
  
@@ -277,11 +278,6 @@ font-family: "Oswald";
     font-weight: 600;
 }
 
-.btn-welcometext {
-    background-color: #EDCA28;
-    color: black;
-    
-}
 
 /* ---------- Opening hours - content 1 ------------ */ 
 
@@ -666,6 +662,7 @@ input[type=text], select, textarea {
 
 }
 
+
    #topic {
     font-family:'Nunito Sans';
    }
@@ -856,13 +853,13 @@ display: inline-block;
   
   /* ---------- 1055px ------------ *//* ---------- 990 PX  ------------ *//* ---------- 990 PX  ------------ *//* ---------- 990 PX  ------------ */
 
-  @media (max-width: 1110px) {
+  @media (max-width: 1120px) {
     .Container-width-content, .banner-text, .Container-width-content-explore, .banner-text-flex, .footer{
         width: 95%;
     }
 
 
-/* ---------- 1110px  ------------ *//* ---------- NAV-HAMBURGER MENU  ------------ */
+/* ---------- 1120px  ------------ *//* ---------- NAV-HAMBURGER MENU  ------------ */
 .Logo-nav-holder    { 
     display: inline;
 }
