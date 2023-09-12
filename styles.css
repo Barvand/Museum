@@ -350,7 +350,6 @@ font-family: "Oswald";
 }
 
 
-
   .Cosmology {
     background-color: #EDCA28;
   }
@@ -367,7 +366,7 @@ font-family: "Oswald";
   .btn-learnmore { 
     background-color: black;
     color: white;
-    margin: 20px 5px;
+    margin: 20px 0; 
     padding: 0.5em 1em;
   }
 
@@ -645,10 +644,6 @@ padding: 0px 5px;
 font-size: 18px;
 }
 
-
-.text-padding-index {
- padding-left: 5px;
-}
 
 #contactus-btn {
 background-color: black;
