@@ -115,6 +115,8 @@ p, li, label, input{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    width: 60%;
+    margin: auto;
 
 }
 
@@ -133,7 +135,7 @@ padding: 20px;
 /* NAV */
 #nav-front a {
     color: white;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     margin-left: 40px;
     
 }
@@ -708,7 +710,7 @@ display: inline-block;
     display: flex;
     align-items: flex-end; 
     justify-content: space-between;
-    width: 60%;
+    width: 50%;
     height: 60vh;
     margin: auto;
     }
@@ -836,7 +838,7 @@ display: inline-block;
 
 /* ---------- 1920 PX  ------------ *//* ---------- 1920 PX  ------------ *//* ---------- 1920 PX  ------------ *//* ---------- 1920 PX  ------------ */
 @media (max-width: 1920px) {
-    .Container-width-content, .banner-text, .banner-text-flex,  .Container-width-content-explore, .footer {
+    .Container-width-content, .banner-text, .banner-text-flex,  .Container-width-content-explore, .footer, .Logo-nav-holder {
         width: 80%;
     }
 
@@ -844,22 +846,23 @@ display: inline-block;
 /* ---------- 1300 PX  ------------ *//* ---------- 1300 PX  ------------ *//* ---------- 1300 PX  ------------ *//* ---------- 1300 PX  ------------ */
 
   @media (max-width: 1300px) {
-    .Container-width-content, .banner-text, .Container-width-content-explore, .banner-text-flex, .footer {
+
+    .Container-width-content, .banner-text, .Container-width-content-explore, .banner-text-flex, .footer, .Logo-nav-holder {
         width: 90%;
     }
 
   }
 
   
-  /* ---------- 1055px ------------ *//* ---------- 990 PX  ------------ *//* ---------- 990 PX  ------------ *//* ---------- 990 PX  ------------ */
+  /* ---------- 1150px ------------ *//* ---------- 1150px  ------------ *//* ---------- 1150px  ------------ *//* ---------- 1150px  ------------ */
 
-  @media (max-width: 1120px) {
+  @media (max-width: 1150px) {
     .Container-width-content, .banner-text, .Container-width-content-explore, .banner-text-flex, .footer{
         width: 95%;
     }
 
 
-/* ---------- 1120px  ------------ *//* ---------- NAV-HAMBURGER MENU  ------------ */
+/* ---------- 1150px  ------------ *//* ---------- NAV-HAMBURGER MENU  ------------ */
 .Logo-nav-holder    { 
     display: inline;
 }
@@ -894,7 +897,7 @@ display: inline-block;
     top: 50px;
     font-size: 32px;
 }
-/* ---------- 1110px PX  ------------ *//* ---------- BANNER -TEXT + SOCIAL MEDIA ICONS  ------------ */
+/* ---------- 1150px PX  ------------ *//* ---------- BANNER -TEXT + SOCIAL MEDIA ICONS  ------------ */
 .container-banner {
     flex-direction: column;
     justify-content:end;
@@ -914,7 +917,7 @@ h1 {
 
 
 
-/* ---------- 1110px  ------------ *//* ---------- INDEX  ------------ */
+/* ---------- 1150px  ------------ *//* ---------- INDEX  ------------ */
 
  /* ---------- GRIDS  ------------ */
     .container-content1, .exhibitions {
@@ -941,7 +944,7 @@ h1 {
         padding: 0;
     }
 
-    /* ---------- 1110 PX  ------------ *//* ---------- FLEX-CONTAINERS  ------------ */
+    /* ---------- 1150px PX  ------------ *//* ---------- FLEX-CONTAINERS  ------------ */
     .container-events, .container-activities, .ticket-flex-container {
         flex-direction: column;
     }
@@ -955,7 +958,7 @@ h1 {
   
     
 
-/* ---------- 1110px  ------------ */ /* ---------- COSMOLOGY PAGE ------------ */
+/* ---------- 1150px  ------------ */ /* ---------- COSMOLOGY PAGE ------------ */
 
 
     .image-cosmology img {
