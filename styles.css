@@ -599,8 +599,7 @@ object-fit: cover;
 
 
 .container-banner-explore-page {
-    width: 100%;
-    margin: auto;
+        margin: auto;
         display: flex;
         justify-content: space-around;
         align-items: flex-end;
@@ -624,12 +623,6 @@ padding: 0px 5px;
 font-size: 18px;
 }
 
-
-#contactus-btn {
-background-color: black;
-color: white;
-padding: 5px 10px 5px 10px;
-}
 
 .container-explore {
     padding-top: 30px;
@@ -673,12 +666,11 @@ font-weight: 600;
 /* ---------- VISIT US PAGE ------------ */
 
 .container-banner-visit-page {
-    width: 100%;
         background-image: url(Images/exhibition-robots.jpg);
         background-color: rgba(7, 7, 7, 0.5);
         background-blend-mode: multiply;
         background-size: cover;
-        background-position: center;
+        background-position: 10% 50%;
         height: 60vh; 
 }
 
@@ -693,8 +685,8 @@ font-weight: 600;
 /* ---------- TICKET PAGE ------------ */
 
 .container-banner-tickets {
-    width: 100%;
-    margin: auto;
+    
+        margin: auto;
         display: flex;
         justify-content: space-around;
         align-items: flex-end;
@@ -778,7 +770,7 @@ font-weight: 600;
 
 /* ---------- THANK YOU PAGE ------------ */
 .container-banner-thankyou {
-    width: 100%;
+    
     margin: auto;
         display: flex;
         justify-content: space-around;
