@@ -147,7 +147,6 @@ padding: 20px 0 20px 0;
  
 /* Banner Styles */
 .container-banner {
-    width: 100%;
     display: flex;
     align-items: flex-end;
     background-image: url(Images/Exhibition-evolution.jpg);
@@ -219,7 +218,7 @@ background-color: #99831f;
 /* ---------- Title styles - index ------------ */
 
 .Title-seeall-category { 
-    width: 100%;
+    
     margin: 30px auto 10px auto; 
     display: flex;
     border-bottom: 2px rgb(219, 216, 216) solid;
@@ -479,7 +478,6 @@ footer {
 
 
 .container-banner-exhibition {
-    width: 100%;
     margin: auto;
     display: flex;
     justify-content: space-around;
@@ -531,8 +529,8 @@ margin-left: 5px;
 /* ---------- BANNER ------------ */
 
 .container-banner-cosmology { 
-    width: 100%;
-margin: auto;
+    
+    margin: auto;
     display: flex;
     justify-content: space-around;
     align-items: flex-end;
@@ -685,7 +683,6 @@ font-weight: 600;
 /* ---------- TICKET PAGE ------------ */
 
 .container-banner-tickets {
-    
         margin: auto;
         display: flex;
         justify-content: space-around;
@@ -821,7 +818,6 @@ font-weight: 600;
 
   }
 
-  
   /* ---------- 1150px ------------ *//* ---------- 1150px  ------------ *//* ---------- 1150px  ------------ *//* ---------- 1150px  ------------ */
 
   @media (max-width: 1150px) {
