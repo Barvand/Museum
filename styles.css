@@ -705,7 +705,7 @@ display: inline-block;
         justify-content: space-around;
         align-items: flex-end;
         background-image: url(Images/Tickets-science-museum.jpg);
-        background-color: grey;
+        background-color: rgba(7, 7, 7, 0.5);
         background-blend-mode: multiply;
         background-size: cover;
         background-position: center;
