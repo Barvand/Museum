@@ -486,7 +486,7 @@ footer {
     align-items: flex-end;
     background-image: url(Images/banner-exhibition-test.jpg);
     background-position: center;
-    background-color: grey;
+    background-color: rgba(26, 24, 24, 0.315);
     background-blend-mode: multiply;
     background-size: cover;
     height: 60vh; 
