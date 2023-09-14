@@ -7,9 +7,7 @@ body {
 
 .no-margin { 
     margin: 0;
-    color: black;
     font-family: "Nunito Sans";
-    font-size: 1.2rem;
 }
 
 
@@ -25,9 +23,7 @@ body {
     margin: auto;
 }
 
-.Container-width-content-explore h4 {
-font-size: 1rem;
-}
+
 /* ---------- PADDING BETWEEN SECTIONS AND TITLES------------ */
 
 section { 
@@ -71,6 +67,7 @@ a {
 h1 {
     font-size: 42px;
     font-family: "Oswald";
+    text-transform: uppercase;
 }
 
 h2 {
@@ -85,29 +82,28 @@ h3 {
     text-transform: uppercase;
     font-family: "Oswald";
 }
+.events-activities-h3 {
+    margin: 0;
+}
 
 h4 {
     font-size: 20px;
     font-family: "Oswald";
-   
 }
+
+.Container-width-content-explore h4 {
+    font-size: 1rem;
+    }
 
 p, li, label, input{ 
     font-family: "Nunito Sans";
     font-size: 1rem;
 }
 
-.events-activities-h3 {
-    margin: 0;
-    
-}
-
 
 /* HEADER *//* HEADER *//* HEADER *//* HEADER *//* HEADER *//* HEADER *//* HEADER */
 #header {
     background-color: black;
-    height: 100px;
-    width: 100%;
 }
 
 /* HEADER */
@@ -117,10 +113,9 @@ p, li, label, input{
     align-items: center;
     margin: auto;
     width: 50%;
-    
-
 }
 
+/* HAMBURGER MENU HACK - THIS IS FOR THE LABEL TO NOT BE EMPTY FOR THE WAVE ACCESSIBILITY CHECK */
 b {
     display: none;
 }
@@ -129,6 +124,7 @@ b {
 padding: 20px 0 20px 0;
 }
 
+/* HAMBURGER MENU HACK  */
 
 #menu-checkbox, .fa-xl {
     display: none;
@@ -153,7 +149,6 @@ padding: 20px 0 20px 0;
 .container-banner {
     width: 100%;
     display: flex;
-    justify-content: space-around;
     align-items: flex-end;
     background-image: url(Images/Exhibition-evolution.jpg);
     background-position: center;
@@ -250,16 +245,11 @@ font-family: "Oswald";
  }
  
 .container-content1 { 
-    width: 100%;
+    display: grid; 
+    grid-template-columns: 2fr 1fr; 
     padding-top: 20px;
     margin: auto;
-        display: grid; 
-        grid-template-columns: 2fr 1fr; 
-
 }
-
-
-
 
 /* ---------- Welcome text ------------ */ 
 
@@ -291,7 +281,7 @@ font-family: "Oswald";
     background-color: #3E363F;
     color: white;
     margin: 0 0 10px 10px;
-    padding-bottom: 40px; 
+    padding-bottom: 20px; 
 }
 
 .Opening-hours p {
@@ -304,21 +294,16 @@ font-family: "Oswald";
     height: 150px;
     background-color: black;
     grid-column: 1 / 3;
-    padding-top: 0;
     background-image: url(Images/pharaoh-exhib.png);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
     padding-left: 5px;
 }
-
-
-
 #white-h3 {
     color: white;
     margin: 0;
 }
-
 #white-p {
     margin: 0;
     color: #EDCA28;
@@ -330,17 +315,12 @@ font-family: "Oswald";
 
 /* ---------- CONTENT 2 EXHIBITIONS ------------ */
 
-
-
-
 .exhibitions {
-    width: 100%;
     display: grid; 
     grid-template-columns: 1fr 1fr;
     gap: 30px;
     
 }
-
 
   .Exhibition-images {
     width: 100%;
@@ -839,7 +819,7 @@ display: inline-block;
 
 
 /* ---------- 1920 PX  ------------ *//* ---------- 1920 PX  ------------ *//* ---------- 1920 PX  ------------ *//* ---------- 1920 PX  ------------ */
-@media (max-width: 1920px) {
+@media (max-width: 1975px) {
     .Container-width-content, .banner-text, .banner-text-flex,  .Container-width-content-explore, .footer, .Logo-nav-holder {
         width: 80%;
     }
@@ -952,6 +932,10 @@ h1 {
         padding: 0;
     }
 
+    .event-content img {
+        height: 30vh;
+    }
+
     /* ---------- 1150px PX  ------------ *//* ---------- FLEX-CONTAINERS  ------------ */
     .container-events, .container-activities, .ticket-flex-container {
         flex-direction: column;
@@ -1003,7 +987,6 @@ h1 {
   section {
     padding-bottom: 10px ;
     
-
   }
 
   
