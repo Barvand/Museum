@@ -656,14 +656,8 @@ font-weight: 600;
 }
 
 .submit-btn {
-background-color: #EDCA28;
-float: right;
-cursor: pointer;
-display: inline-block;
-  padding: 0.5em 3em;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-family: "Oswald";
+  background-color: #EDCA28;
+  float: right;
   }
 
 
