@@ -1,1026 +1,965 @@
 /* ---------- General styles------------ */
 
 body {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
-.no-margin { 
-    margin: 0;
-    font-family: "Nunito Sans";
+.no-margin {
+  margin: 0;
+  font-family: "Nunito Sans";
 }
-
 
 /* ---------- CONTAINER WIDTH'S------------ */
 
 .Container-width-content {
-    width: 50%;
-    margin: auto;
+  width: 50%;
+  margin: auto;
 }
 
 .Container-width-content-explore {
-    width: 50%;
-    margin: auto;
+  width: 50%;
+  margin: auto;
 }
-
 
 /* ---------- PADDING BETWEEN SECTIONS AND TITLES------------ */
 
-section { 
-    padding-bottom: 50px;
-    padding-top: 0;
+section {
+  padding-bottom: 50px;
+  padding-top: 0;
 }
 
 /* ---------- BUTTON STYLES AND HOVERS ------------ */
 
 .btn {
-    display: inline-block;
-    padding: 0.5em 3em;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-family: "Oswald";
+  display: inline-block;
+  padding: 0.5em 3em;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Oswald";
 }
 
-.btn:hover  {
-    text-decoration: underline;
+.btn:hover {
+  text-decoration: underline;
 }
 
 .btn-arrow-up:hover {
-    background-color: #99831f;
+  background-color: #99831f;
 }
-
 
 /* ---------- A HYPERLINK STYLES & HOVERS ------------ */
 
 a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 a {
-    text-decoration: none; 
-    color: black;
-    font-family: "Oswald";
+  text-decoration: none;
+  color: black;
+  font-family: "Oswald";
 }
 
 /* Typography Styles */
 
 h1 {
-    font-size: 42px;
-    font-family: "Oswald";
-    text-transform: uppercase;
+  font-size: 42px;
+  font-family: "Oswald";
+  text-transform: uppercase;
 }
 
 h2 {
-    font-size: 30px;
-    text-transform: uppercase;
-    font-family: "Oswald";
+  font-size: 30px;
+  text-transform: uppercase;
+  font-family: "Oswald";
 }
 
 h3 {
-    font-size: 22px;
-    margin-top: 20px;
-    text-transform: uppercase;
-    font-family: "Oswald";
+  font-size: 22px;
+  margin-top: 20px;
+  text-transform: uppercase;
+  font-family: "Oswald";
 }
 .events-activities-h3 {
-    margin: 0;
+  margin: 0;
 }
 
 h4 {
-    font-size: 20px;
-    font-family: "Oswald";
+  font-size: 20px;
+  font-family: "Oswald";
 }
 
 .Container-width-content-explore h4 {
-    font-size: 1rem;
-    }
-
-p, li, label, input{ 
-    font-family: "Nunito Sans";
-    font-size: 1rem;
+  font-size: 1rem;
 }
 
+p,
+li,
+label,
+input {
+  font-family: "Nunito Sans";
+  font-size: 1rem;
+}
 
-/* HEADER *//* HEADER *//* HEADER *//* HEADER *//* HEADER *//* HEADER *//* HEADER */
+/* HEADER */ /* HEADER */ /* HEADER */ /* HEADER */ /* HEADER */ /* HEADER */ /* HEADER */
 #header {
-    background-color: black;
+  background-color: black;
 }
 
 /* HEADER */
 .Logo-nav-holder {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: auto;
-    width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  width: 50%;
 }
 
 /* HAMBURGER MENU HACK - THIS IS FOR THE LABEL TO NOT BE EMPTY FOR THE WAVE ACCESSIBILITY CHECK */
 b {
-    display: none;
+  display: none;
 }
 
-#Logo { 
-padding: 20px 0 20px 0;
+#Logo {
+  padding: 20px 0 20px 0;
 }
 
 /* HAMBURGER MENU HACK  */
 
-#menu-checkbox, .fa-xl {
-    display: none;
+#menu-checkbox,
+.fa-xl {
+  display: none;
 }
 
 /* NAV */
 #nav-front a {
-    color: white;
-    font-size: 1.1rem;
-    margin-left: 40px;
+  color: white;
+  font-size: 1.1rem;
+  margin-left: 40px;
 }
-
 
 .btn-tickets {
-    background-color:#2A5953; 
-    color: white;
-    padding: 0.5em 2em;
+  background-color: #2a5953;
+  color: white;
+  padding: 0.5em 2em;
 }
 
- 
 /* Banner Styles */
 .container-banner {
-    display: flex;
-    align-items: flex-end;
-    background-image: url(Images/Exhibition-evolution.jpg);
-    background-position: center;
-    background-size: cover;
-    background-blend-mode: multiply;
-    background-color: #706a6a;
-    height: 60vh; 
-    
-    
+  display: flex;
+  align-items: flex-end;
+  background-image: url(Images/Exhibition-evolution.jpg);
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: multiply;
+  background-color: #706a6a;
+  height: 60vh;
 }
 
 .Welcome-text {
-    color: white;
-    text-transform:uppercase; 
-    margin-bottom: 50px;
+  color: white;
+  text-transform: uppercase;
+  margin-bottom: 50px;
 }
 
 #h1-banner {
-    margin: 0;
+  margin: 0;
 }
-  
+
 #p-banner {
-    margin-top: 0;
-    text-transform:inherit;
-    font-size: 20px;
-    font-weight: 600;
-    color: white;
+  margin-top: 0;
+  text-transform: inherit;
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
 }
 
 .social-media-icons {
-    margin-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .positioning-margin-instagram {
-    margin-bottom: -5px;
+  margin-bottom: -5px;
 }
 
 /* ---------- UNDER BAR BANNER ------------ */
 
-.banner-text { 
-    width: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: auto;
-    background-color: #3E363F;
-    font-weight: 600;
+.banner-text {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+  background-color: #3e363f;
+  font-weight: 600;
 }
 
 .btn-banner {
-    color: black;
-    background-color: #EDCA28;
+  color: black;
+  background-color: #edca28;
 }
 
 .btn-banner:hover {
-background-color: #99831f;
-    color: white;
+  background-color: #99831f;
+  color: white;
 }
 
 .banner-text p {
-    color: #FFFFFF;
+  color: #ffffff;
 }
 
 .banner-side-color {
-    background-color: #3E363F;
+  background-color: #3e363f;
 }
 
 /* ---------- Title styles - index ------------ */
 
-.Title-seeall-category { 
-    
-    margin: 30px auto 10px auto; 
-    display: flex;
-    border-bottom: 2px rgb(219, 216, 216) solid;
+.Title-seeall-category {
+  margin: 30px auto 10px auto;
+  display: flex;
+  border-bottom: 2px rgb(219, 216, 216) solid;
 }
 
-.content-title-h2 { 
-    margin: 0;
+.content-title-h2 {
+  margin: 0;
 }
 
 .title-clickable-seeall {
-color: #000000b6;
-align-self: flex-end;
-padding-left: 5px;
-line-height: 2;
-font-family: "Oswald";
-
+  color: #000000b6;
+  align-self: flex-end;
+  padding-left: 5px;
+  line-height: 2;
+  font-family: "Oswald";
 }
-
 
 /* ---------- CONTENT 1 ------------ */ /* ---------- INDEX ------------ */
- .Container-width-content p, .container-exhibitions p, .Container-width-content-explore p {
-    margin-top: 5px;
- }
- 
-.container-content1 { 
-    display: grid; 
-    grid-template-columns: 2fr 1fr; 
-    padding-top: 20px;
-    margin: auto;
+.Container-width-content p,
+.container-exhibitions p,
+.Container-width-content-explore p {
+  margin-top: 5px;
 }
 
-/* ---------- Welcome text ------------ */ 
+.container-content1 {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  padding-top: 20px;
+  margin: auto;
+}
+
+/* ---------- Welcome text ------------ */
 
 .Welcome-text-content1 {
-    background-color: #2A5953;
-    color: white;
-    padding: 0 5px 10px 20px; 
-    
+  background-color: #2a5953;
+  color: white;
+  padding: 0 5px 10px 20px;
 }
 
 .Welcome-text-content1 h2 {
-    margin: 25px 0px 0px 0px;
+  margin: 25px 0px 0px 0px;
 }
 .p-content1-space {
-    padding: 0px 40px 20px 0px;
+  padding: 0px 40px 20px 0px;
 }
 
 #freeticket-slogan {
-    padding: 30px 0 20px 0;
-    font-weight: 600;
+  padding: 30px 0 20px 0;
+  font-weight: 600;
 }
 
+/* ---------- Opening hours - content 1 ------------ */
 
-/* ---------- Opening hours - content 1 ------------ */ 
-
-.Opening-hours { 
-    text-align: center;
-    font-weight: 600;
-    background-color: #3E363F;
-    color: white;
-    margin: 0 0 10px 10px;
-    padding-bottom: 20px; 
+.Opening-hours {
+  text-align: center;
+  font-weight: 600;
+  background-color: #3e363f;
+  color: white;
+  margin: 0 0 10px 10px;
+  padding-bottom: 20px;
 }
 
 .Opening-hours p {
-    margin-top: 10px;
+  margin-top: 10px;
 }
 
-/* ---------- NEW PHARAOH EXHIBITION ------------ */ 
+/* ---------- NEW PHARAOH EXHIBITION ------------ */
 
 .new-exhibition {
-    height: 150px;
-    background-color: black;
-    grid-column: 1 / 3;
-    background-image: url(Images/pharaoh-exhib.png);
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding-left: 5px;
+  height: 150px;
+  background-color: black;
+  grid-column: 1 / 3;
+  background-image: url(Images/pharaoh-exhib.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-left: 5px;
 }
 #white-h3 {
-    color: white;
-    margin: 0;
+  color: white;
+  margin: 0;
 }
 #white-p {
-    margin: 0;
-    color: #EDCA28;
-    font-size: 20px;
-    font-weight: 600;
+  margin: 0;
+  color: #edca28;
+  font-size: 20px;
+  font-weight: 600;
 }
-
-
 
 /* ---------- CONTENT 2 EXHIBITIONS ------------ */
 
 .exhibitions {
-    display: grid; 
-    grid-template-columns: 1fr 1fr;
-    gap: 30px;
-    
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
 }
 
-  .Exhibition-images {
-    width: 100%;
-    height: 350px;
-    min-height: 350px;
-    object-fit: cover;
+.Exhibition-images {
+  width: 100%;
+  height: 350px;
+  min-height: 350px;
+  object-fit: cover;
 }
 
+.Cosmology {
+  background-color: #edca28;
+}
 
-  .Cosmology {
-    background-color: #EDCA28;
-  }
+.Evolution {
+  background-color: #2a5953;
+  color: white;
+}
 
-  .Evolution {
-   background-color: #2A5953;
-   color: white;
-  }
+.text-padding-index {
+  padding: 0 10px 0 10px;
+}
 
-  .text-padding-index {
-    padding: 0 10px 0 10px;
-  }
+.btn-learnmore {
+  background-color: black;
+  color: white;
+  margin: 20px 0;
+  padding: 0.5em 1em;
+}
 
-  .btn-learnmore { 
-    background-color: black;
-    color: white;
-    margin: 20px 0; 
-    padding: 0.5em 1em;
-  }
-
-
-  /* ---------- CONTENT 3 UPCOMING EVENTS ------------ */
-
+/* ---------- CONTENT 3 UPCOMING EVENTS ------------ */
 
 .container-events {
-    display: flex;
-    gap: 25px;
+  display: flex;
+  gap: 25px;
 }
 .container-events img {
-   width: 100%;
-   height: 20vh;
-   object-fit: cover; 
-   max-width: 100%;
+  width: 100%;
+  height: 20vh;
+  object-fit: cover;
+  max-width: 100%;
 }
 
 .event-content {
-    flex: 1;
-    border: rgba(230, 234, 238, 0.808) 2px solid;
-    border-radius: 5px;
-    
+  flex: 1;
+  border: rgba(230, 234, 238, 0.808) 2px solid;
+  border-radius: 5px;
 }
 
 /* ---------- CONTENT 4 UPCOMING ACTIVITIES  ------------ */
 
 .container-activities {
-    display: flex;
-    gap: 25px;
+  display: flex;
+  gap: 25px;
 }
 
-
 .container-activities img {
-    width: 100%;
-    object-fit: cover;
-    height: 250px;
+  width: 100%;
+  object-fit: cover;
+  height: 250px;
 }
 
 /* ---------- ARROW UP BTN ------------ */
 
-.btn-arrow-up { 
-    float: right; 
-    background-color: #EDCA28;
-    padding: 0 30px 0px 30px;
-    margin-top: 50px;
-    
+.btn-arrow-up {
+  float: right;
+  background-color: #edca28;
+  padding: 0 30px 0px 30px;
+  margin-top: 50px;
 }
 
-.btn-arrow-up img { 
-    width: 30px;
-    height: 30px;
+.btn-arrow-up img {
+  width: 30px;
+  height: 30px;
 }
-
 
 /* ---------- FOOTER ------------ */
 
-
 footer {
-    margin-top: 150px;
-    
+  margin-top: 150px;
 }
 
 .footer {
-    background-color: black;
-    color: white;
-    margin: auto;
-    width: 50%;
-    display: flex;
-    justify-content: space-between;
+  background-color: black;
+  color: white;
+  margin: auto;
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
 }
-
 
 .footer-side-color {
-    background-color: black;
+  background-color: black;
 }
 
-
 .location-socialmedia h4 {
-    margin: 0;
-    padding-top: 10px;
-    color: #EDCA28;
-    font-size: 1.2rem;
-    font-family: "Nunito Sans";
+  margin: 0;
+  padding-top: 10px;
+  color: #edca28;
+  font-size: 1.2rem;
+  font-family: "Nunito Sans";
 }
 
 .location-socialmedia p {
-    margin: 0;
+  margin: 0;
 }
 
 .location-socialmedia {
-    display: flex;
-    flex-direction: column; 
-    justify-content: space-between;
-    
-    
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .location-socialmedia p {
-    font-weight: 600;
-    
+  font-weight: 600;
 }
 
-
-.navigation-footer { 
-    display: flex;
-    flex-direction: column;
+.navigation-footer {
+  display: flex;
+  flex-direction: column;
 }
 
-.navigation-footer a { 
-    color: White; 
-    line-height: 3;
-    font-size: 18px;
-    font-weight: 600;
+.navigation-footer a {
+  color: White;
+  line-height: 3;
+  font-size: 18px;
+  font-weight: 600;
 }
 
 .btn-donate-footer {
-   background-color: #2A5953;
-   margin-top:20px;
-   color: #ffffff;
+  background-color: #2a5953;
+  margin-top: 20px;
+  color: #ffffff;
 }
-
-
 
 /* ---------- EXHIBITION SPACES ------------ */ /* ---------- PAGE 2 ------------ */
 
-
 /* ---------- BANNER ------------ */
 
-
-
 .container-banner-exhibition {
-    margin: auto;
-    display: flex;
-    justify-content: space-around;
-    align-items: flex-end;
-    background-image: url(Images/banner-exhibition-test.jpg);
-    background-position: center;
-    background-color: rgba(26, 24, 24, 0.315);
-    background-blend-mode: multiply;
-    background-size: cover;
-    height: 60vh; 
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  background-image: url(Images/banner-exhibition-test.jpg);
+  background-position: center;
+  background-color: rgba(26, 24, 24, 0.315);
+  background-blend-mode: multiply;
+  background-size: cover;
+  height: 60vh;
 }
 
 .exhibition-title {
-    margin: 50px 0px 020px 0px; 
-    border-bottom: 2px rgb(219, 216, 216) solid;
-
+  margin: 50px 0px 020px 0px;
+  border-bottom: 2px rgb(219, 216, 216) solid;
 }
 
-.content-exhibition img { 
-    width: 100%;
-    margin: auto; 
-    height: 300px;
-    object-fit: cover;
-    
+.content-exhibition img {
+  width: 100%;
+  margin: auto;
+  height: 300px;
+  object-fit: cover;
 }
 
-.content-exhibition { 
-    margin: 20px 5px 20px 5px; 
-    background-color: aliceblue; 
+.content-exhibition {
+  margin: 20px 5px 20px 5px;
+  background-color: aliceblue;
 }
 
 .exhibition-text {
-margin-left: 5px; 
+  margin-left: 5px;
 }
 
-.content-title { 
-    margin: 0;
+.content-title {
+  margin: 0;
 }
-
 
 #Image-adjustment-ecology {
-    object-fit: cover;
+  object-fit: cover;
 }
-
 
 /* ---------- COSMOLOGY PAGE ------------ */
 
-
 /* ---------- BANNER ------------ */
 
-.container-banner-cosmology { 
-    
-    margin: auto;
-    display: flex;
-    justify-content: space-around;
-    align-items: flex-end;
-    background-image: url(Images/exhibition-cosmology.jpg);
-    background-color: rgba(7, 7, 7, 0.281);
-    background-blend-mode: multiply;
-    background-position: center;
-    background-size: cover;
-    height: 60vh; 
+.container-banner-cosmology {
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  background-image: url(Images/exhibition-cosmology.jpg);
+  background-color: rgba(7, 7, 7, 0.281);
+  background-blend-mode: multiply;
+  background-position: center;
+  background-size: cover;
+  height: 60vh;
 }
 /* ---------- Content Cosmology ------------ */
 
 .container-cosmology-content1 {
-    display: flex;
-    gap: 50px;
+  display: flex;
+  gap: 50px;
 }
 
 .container-cosmology-content1 img {
-    width: 400px;
-    height: 350px;
-    object-fit: cover;
+  width: 400px;
+  height: 350px;
+  object-fit: cover;
 }
 
-
 .title-cosmology-images {
-    border-bottom: 2px rgb(219, 216, 216) solid;
+  border-bottom: 2px rgb(219, 216, 216) solid;
 }
 
 .container-cosmology-content-images {
-    width: 100%;
-    margin: auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 10px;
+  width: 100%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
 }
 
 .container-cosmology-content-images img {
-width: 100%;
-height: 300px;
-object-fit: cover;
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
 }
 
 .cosmology-content {
-    background-color: #2A5953;
-    color: white;
+  background-color: #2a5953;
+  color: white;
 }
 .booknow-btn-cosmology-page {
-    margin: auto;
-    padding-bottom: 20px;
-    margin-bottom: 20px;
-    background-color: #3E363F;
-    text-align: center;
-
+  margin: auto;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  background-color: #3e363f;
+  text-align: center;
 }
 
-.booknow-btn-cosmology-page h4{
-    padding-top: 20px;
-   padding-bottom: 20px;
-   color: white;
-
+.booknow-btn-cosmology-page h4 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: white;
 }
 
 /* ---------- GET INVOLVED / EXPLORE  ------------ */
 
-
 .container-banner-explore-page {
-        margin: auto;
-        display: flex;
-        justify-content: space-around;
-        align-items: flex-end;
-        background-image: url(Images/explore-northernlight.jpg);
-        background-color: rgba(7, 7, 7, 0.5);
-        background-blend-mode: multiply;
-        background-size: 100%;
-        background-position: center;
-        height: 60vh; 
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  background-image: url(Images/explore-northernlight.jpg);
+  background-color: rgba(7, 7, 7, 0.5);
+  background-blend-mode: multiply;
+  background-size: 100%;
+  background-position: center;
+  height: 60vh;
 }
 
-
 .question-tab {
-    background-color: #3E363F;
-    color: white;
-    height: 30px;
+  background-color: #3e363f;
+  color: white;
+  height: 30px;
 }
 
 .question-tab h3 {
-padding: 0px 5px;
-font-size: 18px;
+  padding: 0px 5px;
+  font-size: 18px;
 }
-
 
 .container-explore {
-    padding-top: 30px;
+  padding-top: 30px;
 }
 
-input[type=text], select, textarea {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc; 
-    box-sizing: border-box;
-    margin: 5px 0 15px 0;
-    resize: vertical;
-    font-family: "Nunito Sans";
-
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  margin: 5px 0 15px 0;
+  resize: vertical;
+  font-family: "Nunito Sans";
 }
 
+#topic {
+  font-family: "Nunito Sans";
+}
 
-   #topic {
-    font-family:'Nunito Sans';
-   }
+#message {
+    height: 200px;
+}
 
-.contact-form  label {
-font-weight: 600;
+.contact-form label {
+  font-weight: 600;
 }
 
 .submit-btn {
-  background-color: #EDCA28;
+  background-color: #edca28;
   float: right;
-  }
+}
 
+.submit-btn:hover {
+  background-color: #99831f;
+  color: white;
+}
 
-  .submit-btn:hover {
-    background-color: #99831f;
-    color: white;
-  }
-
-  select {
-    font-family: "Nuntito Sans";
-  }
+select {
+  font-family: "Nuntito Sans";
+}
 
 /* ---------- VISIT US PAGE ------------ */
 
 .container-banner-visit-page {
-        background-image: url(Images/exhibition-robots.jpg);
-        background-color: rgba(7, 7, 7, 0.5);
-        background-blend-mode: multiply;
-        background-size: cover;
-        background-position: 10% 50%;
-        height: 60vh; 
+  background-image: url(Images/exhibition-robots.jpg);
+  background-color: rgba(7, 7, 7, 0.5);
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-position: 10% 50%;
+  height: 60vh;
 }
 
 .banner-text-flex {
-    display: flex;
-    align-items: flex-end; 
-    justify-content: space-between;
-    width: 50%;
-    height: 60vh;
-    margin: auto;
-    }
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  width: 50%;
+  height: 60vh;
+  margin: auto;
+}
 /* ---------- TICKET PAGE ------------ */
 
 .container-banner-tickets {
-        margin: auto;
-        display: flex;
-        justify-content: space-around;
-        align-items: flex-end;
-        background-image: url(Images/Tickets-science-museum.jpg);
-        background-color: rgba(7, 7, 7, 0.5);
-        background-blend-mode: multiply;
-        background-size: cover;
-        background-position: center;
-        height: 60vh; 
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  background-image: url(Images/Tickets-science-museum.jpg);
+  background-color: rgba(7, 7, 7, 0.5);
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-position: center;
+  height: 60vh;
 }
 
 .ticket-flex-container {
-    display: flex;
+  display: flex;
 }
 .ticket-text {
-    margin-top: 20px;
-    padding: 5px 10px 25px 10px;
-    flex: 2;
-    background-color: #2A5953;
-    color: white;
-    background-repeat: no-repeat;
-    background-position: bottom left;
+  margin-top: 20px;
+  padding: 5px 10px 25px 10px;
+  flex: 2;
+  background-color: #2a5953;
+  color: white;
+  background-repeat: no-repeat;
+  background-position: bottom left;
 }
 
 .ticket-text h2 {
-    margin-bottom: 10px; 
+  margin-bottom: 10px;
 }
 
 .ticket-purchase {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    flex: 1;
-    background-color: #3E363F;
-    margin: 20px 0 10px 10px; 
-    padding: 20px; 
-    text-align: center;
-    color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1;
+  background-color: #3e363f;
+  margin: 20px 0 10px 10px;
+  padding: 20px;
+  text-align: center;
+  color: white;
 }
 
-.ticket-purchase h3, .ticket-purchase h4 {
-    margin: 0;
-    color: rgb(253, 253, 253);
+.ticket-purchase h3,
+.ticket-purchase h4 {
+  margin: 0;
+  color: rgb(253, 253, 253);
 }
 
 .content2-tickets {
-    background-color: black;
-    padding-top: 20px;
-    padding-bottom: 50px;
-    text-align: center;
-    border-top: 1px black dotted;
-    color: white;
-    background-image: url(Images/Egyptian-background-tcketpage.png) ;
-    background-repeat: no-repeat;
-    background-position: bottom left;
-    font-weight: 600;
+  background-color: black;
+  padding-top: 20px;
+  padding-bottom: 50px;
+  text-align: center;
+  border-top: 1px black dotted;
+  color: white;
+  background-image: url(Images/Egyptian-background-tcketpage.png);
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  font-weight: 600;
 }
 
 .banner-tickets {
-    justify-content: center;
+  justify-content: center;
 }
-    
 
-.explore-title { 
-    margin: 10px 0px 0px 0px;
-    text-transform: inherit;
-    font-family: "Nunito Sans";
-    font-weight: 600;
-    font-size: 1.2rem;
+.explore-title {
+  margin: 10px 0px 0px 0px;
+  text-transform: inherit;
+  font-family: "Nunito Sans";
+  font-weight: 600;
+  font-size: 1.2rem;
 }
 
 /* ---------- LABEL AND INPUT TICKET PAGE ------------ */
 
-#start, #available {
-    width: 40%;
-    margin: auto;
-    text-align: center;
-    margin-bottom: 10px;
-    
+#start,
+#available {
+  width: 40%;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 10px;
 }
 
 /* ---------- THANK YOU PAGE ------------ */
 .container-banner-thankyou {
-    
-    margin: auto;
-        display: flex;
-        justify-content: space-around;
-        align-items: flex-end;
-        background-image: url(Images/thankyou-tickets.jpg);
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-blend-mode: multiply;
-        background-color: #706a6a;
-        background-position: center;
-        height: 60vh; 
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  background-image: url(Images/thankyou-tickets.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+  background-color: #706a6a;
+  background-position: center;
+  height: 60vh;
 }
 
 .Thankyou-text {
-    text-align: center;
+  text-align: center;
 }
 
 .btn-thankyou {
-    margin-top: 50px;
-    background-color: #EDCA28;
-    color: black;
+  margin-top: 50px;
+  background-color: #edca28;
+  color: black;
 }
 
 /* ---------- MEDIA QUERIES ------------ */
 
 /* ---------- ALL MEDIA QUERIES RELATED TO WIDTH  ------------ */
 
-
-
-
-
-
-
-/* ---------- 1920 PX  ------------ *//* ---------- 1920 PX  ------------ *//* ---------- 1920 PX  ------------ *//* ---------- 1920 PX  ------------ */
+/* ---------- 1920 PX  ------------ */ /* ---------- 1920 PX  ------------ */ /* ---------- 1920 PX  ------------ */ /* ---------- 1920 PX  ------------ */
 @media (max-width: 1975px) {
-    .Container-width-content, .banner-text, .banner-text-flex,  .Container-width-content-explore, .footer, .Logo-nav-holder {
-        width: 80%;
-    }
-
+  .Container-width-content,
+  .banner-text,
+  .banner-text-flex,
+  .Container-width-content-explore,
+  .footer,
+  .Logo-nav-holder {
+    width: 80%;
   }
-/* ---------- 1300 PX  ------------ *//* ---------- 1300 PX  ------------ *//* ---------- 1300 PX  ------------ *//* ---------- 1300 PX  ------------ */
+}
+/* ---------- 1300 PX  ------------ */ /* ---------- 1300 PX  ------------ */ /* ---------- 1300 PX  ------------ */ /* ---------- 1300 PX  ------------ */
 
-  @media (max-width: 1300px) {
-
-    .Container-width-content, .banner-text, .Container-width-content-explore, .banner-text-flex, .footer, .Logo-nav-holder {
-        width: 90%;
-    }
-
+@media (max-width: 1300px) {
+  .Container-width-content,
+  .banner-text,
+  .Container-width-content-explore,
+  .banner-text-flex,
+  .footer,
+  .Logo-nav-holder {
+    width: 90%;
   }
-
-  /* ---------- 1150px ------------ *//* ---------- 1150px  ------------ *//* ---------- 1150px  ------------ *//* ---------- 1150px  ------------ */
-
-  @media (max-width: 1150px) {
-    .Container-width-content, .banner-text, .Container-width-content-explore, .banner-text-flex, .footer{
-        width: 95%;
-    }
-
-
-/* ---------- 1150px  ------------ *//* ---------- NAV-HAMBURGER MENU  ------------ */
-.Logo-nav-holder    { 
-    display: inline;
 }
 
-#nav-front { 
+/* ---------- 1150px ------------ */ /* ---------- 1150px  ------------ */ /* ---------- 1150px  ------------ */ /* ---------- 1150px  ------------ */
+
+@media (max-width: 1150px) {
+  .Container-width-content,
+  .banner-text,
+  .Container-width-content-explore,
+  .banner-text-flex,
+  .footer {
+    width: 95%;
+  }
+
+  /* ---------- 1150px  ------------ */ /* ---------- NAV-HAMBURGER MENU  ------------ */
+  .Logo-nav-holder {
+    display: inline;
+  }
+
+  #nav-front {
     display: none;
     position: absolute;
-    background: black; 
+    background: black;
     width: 100%;
     left: 0;
-    
-}
+  }
 
-#nav-front a {
+  #nav-front a {
     display: block;
     text-align: center;
     padding: 30px 0px 30px 30px;
     margin: 0;
     border-bottom: 1px white solid;
     border-top: 1px white solid;
-}
+  }
 
-#nav-front a:hover {
+  #nav-front a:hover {
     background-color: #706a6a;
     text-decoration: none;
     font-size: 1.2rem;
-}
+  }
 
-#menu-checkbox:checked ~ #nav-front  {
+  #menu-checkbox:checked ~ #nav-front {
     display: inline-block;
-    
-}
+  }
 
- .fa-xl {
+  .fa-xl {
     display: block;
     position: absolute;
     right: 40px;
     top: 50px;
     font-size: 32px;
-}
-/* ---------- 1150px PX  ------------ *//* ---------- BANNER -TEXT + SOCIAL MEDIA ICONS  ------------ */
-.container-banner {
+  }
+  /* ---------- 1150px PX  ------------ */ /* ---------- BANNER -TEXT + SOCIAL MEDIA ICONS  ------------ */
+  .container-banner {
     flex-direction: column;
-    justify-content:end;
-}
+    justify-content: end;
+  }
 
-.social-media-icons {
+  .social-media-icons {
     display: none;
-}
+  }
 
-h1 {
+  h1 {
     font-size: 2rem;
-    
+  }
+
+  /* ---------- 1150px  ------------ */ /* ---------- INDEX  ------------ */
+
+  /* ---------- GRIDS  ------------ */
+  .container-content1,
+  .exhibitions {
+    grid-template-columns: 1fr;
+  }
+
+  .Opening-hours {
+    grid-row: 2;
+    margin: 0;
+    padding: 20px 0 20px 0;
+  }
+
+  .container-content1 h2,
+  .Evolution {
+    margin: 0;
+  }
+
+  .Welcome-text-content1 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  #freeticket-slogan {
+    margin: 0;
+    padding: 0;
+  }
+
+  .event-content img {
+    height: 30vh;
+  }
+
+  /* ---------- 1150px PX  ------------ */ /* ---------- FLEX-CONTAINERS  ------------ */
+  .container-events,
+  .container-activities,
+  .ticket-flex-container {
+    flex-direction: column;
+  }
+
+  .new-exhibition {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  /* ---------- 1150px  ------------ */ /* ---------- COSMOLOGY PAGE ------------ */
+
+  .image-cosmology img {
+    width: 100%;
+  }
+  .container-cosmology-content1 {
+    flex-direction: column-reverse;
+  }
+
+  .container-cosmology-content-images {
+    grid-template-columns: 1fr;
+  }
+
+  .container-banner-tickets {
+    flex-direction: column-reverse;
+  }
+
+  .ticket-purchase {
+    margin: 0;
+  }
 }
-
-
-
-
-
-
-/* ---------- 1150px  ------------ *//* ---------- INDEX  ------------ */
-
- /* ---------- GRIDS  ------------ */
-    .container-content1, .exhibitions {
-        grid-template-columns: 1fr;
-    }
-
-    .Opening-hours { 
-        grid-row: 2;
-        margin: 0;
-        padding: 20px 0 20px 0; 
-    }
-
-    .container-content1 h2, .Evolution {
-        margin: 0;
-    }
-
-    .Welcome-text-content1 {
-        padding-top: 20px;
-        padding-bottom: 20px;
-    }
-
-    #freeticket-slogan { 
-        margin: 0;
-        padding: 0;
-    }
-
-    .event-content img {
-        height: 30vh;
-    }
-
-    /* ---------- 1150px PX  ------------ *//* ---------- FLEX-CONTAINERS  ------------ */
-    .container-events, .container-activities, .ticket-flex-container {
-        flex-direction: column;
-    }
-
-    .new-exhibition {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-    }
-
-  
-    
-
-/* ---------- 1150px  ------------ */ /* ---------- COSMOLOGY PAGE ------------ */
-
-
-    .image-cosmology img {
-        width: 100%;
-    }
-        .container-cosmology-content1 {
-            flex-direction: column-reverse;
-        }
-    
-        .container-cosmology-content-images {
-            grid-template-columns: 1fr;
-            
-        }
-
-        .container-banner-tickets { 
-            flex-direction: column-reverse
-        }
-    
-
-        .ticket-purchase {
-            margin: 0; 
-        }
-}
-
-
 
 /* ---------- 700 PX  ------------ */
-  @media (max-width: 750px) {
-
-  .hidden-below-900px { 
+@media (max-width: 750px) {
+  .hidden-below-900px {
     display: none;
   }
 
   section {
-    padding-bottom: 10px ;
-    
+    padding-bottom: 10px;
+  }
+}
+
+@media (max-width: 550px) {
+  .footer {
+    flex-direction: column-reverse;
+    padding-bottom: 10px;
   }
 
-  
+  .navigation-footer {
+    border-bottom: 1px white solid;
+    border-top: 1px white solid;
+    margin: 20px 0 20px 0;
+  }
+}
+
+@media (max-width: 550px) {
+  .content2-tickets {
+    background-size: 30%;
   }
 
-  @media (max-width: 550px) {
-    .footer {
-        flex-direction: column-reverse;
-        padding-bottom: 10px;
-    }
-
-    .navigation-footer { 
-        border-bottom: 1px white solid;
-        border-top: 1px white solid;
-        margin: 20px 0 20px 0;
-    }
-
-
-  }
-
-  @media (max-width: 550px) {
-
-    .content2-tickets {
-        background-size: 30%;
-    }
-  
-
-#Logo { 
+  #Logo {
     padding-left: 0;
-    
-}
+  }
 
-.fa-xl {
+  .fa-xl {
     right: 10px;
-    
+  }
 }
 
-}
+@media (max-width: 320px) {
+  #Logo img {
+    width: 200px;
+  }
 
-@media (max-width: 320px)  {
-
-#Logo img  {
-width: 200px;
-}    
-
-.fa-xl {
+  .fa-xl {
     right: 10px;
     top: 40px;
-    
-}
+  }
 
-#header {
+  #header {
     height: 70px;
-}
+  }
 }
